@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/team-member</content-type>	<display-template>/templates/web/team-member.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>277d</objectGroupId>
+	<objectId>277d97bb-990d-4631-1616-7167c61e5b36</objectId>
+	<skills>	<item>	<skillName>Set the best team for your needs</skillName>
+	<skillLevel>95%</skillLevel>
+	</item>	<item>	<skillName>Foster punctuality and quality</skillName>
+	<skillLevel>95%</skillLevel>
+	</item>	<item>	<skillName>Convey any event in our work plan</skillName>
+	<skillLevel>95%</skillLevel>
+	</item>	<item>	<skillName>Get your absolute satisfaction</skillName>
+	<skillLevel>100%</skillLevel>
+	</item></skills>
+	<file-name>member3.xml</file-name>
+	<folder-name/>
+	<internal-name>Member3</internal-name>
+	<fullName>Tom Cat</fullName>
+	<jobTitle>Team Leader</jobTitle>
+	<skillsTitle>These are my commitments</skillsTitle>
+	<famousQuote>Unless you have 100% customer satisfaction, you must improve.</famousQuote>
+	<famousQuoteAuthor>Horst Schulz</famousQuoteAuthor>
+	<socialMediaTitle>You Can Find Me</socialMediaTitle>
+	<facebook> https://www.facebook.com</facebook>
+	<picture>/static-assets/images/member-3s.jpeg</picture>
+	<createdDate>5/30/2017 16:5:34</createdDate>
+	<createdDate_dt>5/30/2017 16:5:34</createdDate_dt>
+	<lastModifiedDate>5/30/2017 18:6:33</lastModifiedDate>
+	<lastModifiedDate_dt>5/30/2017 18:6:33</lastModifiedDate_dt>
+	<twitter>https://twitter.com</twitter>
+	<linkedin>https://www.linkedin.com</linkedin>
+	<google_plus>https://plus.google.com/</google_plus>
+</component>
