@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/statement</content-type>	<display-template>/templates/web/statement.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c4dc</objectGroupId>
+	<objectId>c4dca65e-de10-d706-5452-ed598040ad56</objectId>
+	<file-name>we_are.xml</file-name>
+	<folder-name/>
+	<internal-name>We Are</internal-name>
+	<text>We are creative and garden passionate team, making the world a more beautiful place to live.&lt;br /&gt;&lt;span id="transmark" style="display: none; width: 0px; height: 0px;"&gt;&lt;/span&gt;</text>
+	<createdDate>4/27/2017 23:41:56</createdDate>
+	<createdDate_dt>4/27/2017 23:41:56</createdDate_dt>
+	<lastModifiedDate>5/25/2017 23:46:3</lastModifiedDate>
+	<lastModifiedDate_dt>5/25/2017 23:46:3</lastModifiedDate_dt>
+	<navigationLabel/>
+	<includeNavBar>false</includeNavBar>
+</component>

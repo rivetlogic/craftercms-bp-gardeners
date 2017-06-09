@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/carousel</content-type>	<display-template>/templates/web/carousel.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0af7</objectGroupId>
+	<objectId>0af71c2f-de87-c1d0-7284-7e85aeebb222</objectId>
+	<file-name>carousel.xml</file-name>
+	<folder-name/>
+	<internal-name>Carousel</internal-name>
+	<createdDate>4/28/2017 14:57:15</createdDate>
+	<createdDate_dt>4/28/2017 14:57:15</createdDate_dt>
+	<lastModifiedDate>5/12/2017 21:12:38</lastModifiedDate>
+	<lastModifiedDate_dt>5/12/2017 21:12:38</lastModifiedDate_dt>
+	<title>Our Clients</title>
+	<description>The Clients already give the good feedback</description>
+	<carouselItems>	<item>	<picture>/static-assets/images/test-img1.jpg</picture>
+	<text>Mauris posuere lectus nibh mauris interdum fermentum nunc, in fringilla mauris imperdiet non estibulum blandit, nisl non volutpat luctus, nisi leo posuere tortor quis ultrices turpis nisl eu ante.</text>
+	</item>	<item>	<picture>/static-assets/images/smile100.png</picture>
+	<text>This is a very happy customer.</text>
+	</item></carouselItems>
+	<carouselBackground>/static-assets/images/test-bg.jpg</carouselBackground>
+	<navigationLabel>Clients</navigationLabel>
+	<includeNavBar>true</includeNavBar>
+</component>

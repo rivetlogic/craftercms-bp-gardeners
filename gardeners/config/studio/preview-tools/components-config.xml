@@ -1,0 +1,54 @@
+<config>
+	<category>
+		<label>New Sections</label>
+        <component>
+                <label>Cover</label>
+                <type>/component/cover</type>
+                <path>/site/components</path>
+        </component>
+        <component>
+                <label>Features</label>
+                <type>/component/features</type>
+                <path>/site/components</path>
+        </component>
+        <component>
+                <label>Statement</label>
+                <type>/component/statement</type>
+                <path>/site/components</path>
+        </component>
+        <component>
+                <label>Action Card</label>
+                <type>/component/action-card</type>
+                <path>/site/components</path>
+        </component>
+        <component>
+                <label>Portfolio</label>
+                <type>/component/portfolio</type>
+                <path>/site/components</path>
+        </component>
+        <component>
+                <label>Team</label>
+                <type>/component/team</type>
+                <path>/site/components</path>
+        </component>
+        <component>
+                <label>Brands</label>
+                <type>/component/brands</type>
+                <path>/site/components</path>
+        </component>
+        <component>
+                <label>Carousel</label>
+                <type>/component/team</type>
+                <path>/site/components</path>
+        </component>
+        <component>
+                <label>Action Call</label>
+                <type>/component/action-call</type>
+                <path>/site/components</path>
+        </component>
+	</category>
+    <browse>
+         <label>Existing sections</label>
+         <path>/site/components/sections</path>
+    </browse>
+</config>
