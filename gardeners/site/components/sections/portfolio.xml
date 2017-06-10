@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/portfolio</content-type>	<display-template>/templates/web/portfolio.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2586</objectGroupId>
+	<objectId>2586f11d-4078-fc2e-9574-01ccf0976f85</objectId>
+	<file-name>portfolio.xml</file-name>
+	<folder-name/>
+	<internal-name>Portfolio</internal-name>
+	<createdDate>4/27/2017 23:54:54</createdDate>
+	<createdDate_dt>4/27/2017 23:54:54</createdDate_dt>
+	<lastModifiedDate>6/8/2017 18:37:8</lastModifiedDate>
+	<lastModifiedDate_dt>6/8/2017 18:37:8</lastModifiedDate_dt>
+	<title>Our Works</title>
+	<description>Checkout these amazing works we have done!</description>
+	<portfolioItems>	<item>	<key>/site/components/portfolio/product1.xml</key>
+	<value>Product1</value>
+	<include>/site/components/portfolio/product1.xml</include>
+	<disableFlattening>false</disableFlattening>
+	<title>Magical Path</title>
+	<shortDescription>Located in Oklahoma</shortDescription>
+	<link/>
+	<image>/static-assets/images/work1s.jpeg</image>
+	</item>	<item>	<key>/site/components/portfolio/product2.xml</key>
+	<value>Product2</value>
+	<include>/site/components/portfolio/product2.xml</include>
+	<disableFlattening>false</disableFlattening>
+	<title>Tiny House Garden</title>
+	<shortDescription>In Boston Massachusetts</shortDescription>
+	<link/>
+	<image>/static-assets/images/work2s.jpeg</image>
+	</item>	<item>	<title>Hobbit Home</title>
+	<shortDescription>Magin in Quebec, Canada</shortDescription>
+	<image>/static-assets/images/work3s.jpeg</image>
+	<link/>
+	</item>	<item>	<title>Lovely Patio</title>
+	<shortDescription>Los Angeles, California</shortDescription>
+	<image>/static-assets/images/work4s.jpeg</image>
+	<link>/products</link>
+	</item>	<item>	<title>Babylon tower</title>
+	<shortDescription>Singapore</shortDescription>
+	<image>/static-assets/images/work5s.jpeg</image>
+	<link/>
+	</item>	<item>	<title>Zen garden</title>
+	<shortDescription>San Francisco, California</shortDescription>
+	<image>/static-assets/images/work7s.jpeg</image>
+	<link/>
+	</item>	<item>	<title>Zephyr Palace</title>
+	<shortDescription>Costa Rica</shortDescription>
+	<image>/static-assets/images/work8s.jpeg</image>
+	<link/>
+	</item></portfolioItems>
+	<navigationLabel>Our Work</navigationLabel>
+	<includeNavBar>true</includeNavBar>
+</component>
