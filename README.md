@@ -1,4 +1,4 @@
-# CrafterCMS Blueprint: Gardeners
+# Crafter CMS Blueprint: Gardeners
 
 Gardeners is a single page Crafter 3 blueprint with several information display section and great managament of images and background video. 
 It's based on the Made Apps – Landing Page Free Bootstrap Template by Bootstrap Themes available in https://bootstrapthemes.co/item/made-apps-landing-page-free-bootstrap-template/
