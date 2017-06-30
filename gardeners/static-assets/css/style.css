@@ -1109,7 +1109,10 @@ work Section style
 
 /*Team Section
 ======================*/
-.team_item{}
+.team_item{
+    padding: 10px;
+}
+
 .main_team .team_item .team_author{}
 .main_team .team_item .team_author h4{
     font-size:24px;
