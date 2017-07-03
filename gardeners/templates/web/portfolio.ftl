@@ -29,7 +29,7 @@
                             </#if>
                             <div class="item ${active}">
                                 <div class="container">
-                                    <div class="row">
+                                    <div class="row gallery">
                                         <div class="col-sm-4">
                                             <div class="port_item xs-m-top-30">
                                                 <div class="port_img">
@@ -38,7 +38,7 @@
                                                         <#if aPortfolioItem.link?? &&  aPortfolioItem.link != "">
                                                             <a href="${aPortfolioItem.link!""}" >&uarr;</a>
                                                         <#else>
-                                                            <a href="${aPortfolioItem.image!""}" class="popup-img">&#43;</a>
+                                                            <a href="${aPortfolioItem.image!""}" class="gallery-image" data-gallery>&#43;</a>
                                                         </#if>
                                                     </div>
                                                 </div>
@@ -98,7 +98,7 @@
                             <#if displayArray >
                                 <div class="item ${active}">
                                     <div class="container">
-                                        <div class="row">
+                                        <div class="row gallery">
                                             <#list itemsArray as portfolioItem>
                                             
                                                 <div class="col-sm-4">
@@ -109,7 +109,7 @@
                                                                 <#if portfolioItem.link?? &&  portfolioItem.link != "">
                                                                     <a href="${portfolioItem.link}" >&uarr;</a>
                                                                 <#else>
-                                                                    <a href="${portfolioItem.image}" class="popup-img">&#43;</a>
+                                                                    <a href="${portfolioItem.image}" class="gallery-image" data-gallery>&#43;</a>
                                                                 </#if>
                                                             </div>
                                                         </div>
