@@ -1242,8 +1242,23 @@ work Section style
     font-size:3rem;
 }
 
+.carousel-big {
+    display: block;
+}
 
+.carousel-small {
+    display: none;
+}
 
+@media only screen and (max-width: 767px) {
+    .carousel-big {
+        display: none !important;
+    }
+
+    .carousel-small {
+        display: inline;
+    }
+}
 
 
 /*call to action
