@@ -17,7 +17,7 @@
                   	<#if (aBrand.brandURL?length > 0 ) >
                       	<a href="${aBrand.brandURL}">
                     </#if>
-                    <img src="${aBrand.brandImage!""}" alt="" />
+                    <img src="${aBrand.brandImage!""}" class="brand_image" alt="" />
                     <#if (aBrand.brandURL?length > 0 ) >
                       	</a>
                     </#if>

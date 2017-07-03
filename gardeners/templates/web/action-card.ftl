@@ -38,7 +38,7 @@
 
                 <div class="col-md-7">
                     <div class="business_item">
-                        <div class="business_img" <@studio.iceAttr iceGroup="actionCardForegroundImage" path=contentModel.storeUrl  label="Action Card Image"/>>
+                        <div class="business_img business_img_card" <@studio.iceAttr iceGroup="actionCardForegroundImage" path=contentModel.storeUrl  label="Action Card Image"/>>
                             <img src="${contentModel.actionCardForegroundImage!""}" alt="" />
                         </div>
                     </div>

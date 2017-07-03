@@ -1038,6 +1038,9 @@ Featured section style
     color:#444444;
 }
 
+.business_img_card {
+    padding-top: 20px;
+}
 
 /*
 work Section style
@@ -1106,7 +1109,10 @@ work Section style
 
 /*Team Section
 ======================*/
-.team_item{}
+.team_item{
+    padding: 10px;
+}
+
 .main_team .team_item .team_author{}
 .main_team .team_item .team_author h4{
     font-size:24px;
@@ -1197,6 +1203,13 @@ work Section style
 ======================*/
 .brand_item {
     height: 80px;
+}
+
+.brand_image {
+    height: 80px;
+    width: auto;
+    margin: auto;
+    object-fit: contain;
 }
 
 
