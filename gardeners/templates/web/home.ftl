@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="/static-assets/css/bootstrap.css">
         <link rel="stylesheet" href="/static-assets/css/magnific-popup.css">
         <link rel="stylesheet" href="/static-assets/css/bootsnav.css">
+        <link rel="stylesheet" href="/static-assets/css/blueimp-gallery.min.css">
 
         <!--For Plugins external css-->
         <link rel="stylesheet" href="/static-assets/css/plugins.css" />
@@ -64,7 +65,19 @@
     	<!-- Footer -->
 		<#include "/templates/web/page-home-footer.ftl" />
         
-            
+
+        <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+        <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+            <!-- The container for the modal slides -->
+            <div class="slides"></div>
+            <!-- Controls for the borderless lightbox -->
+            <h3 class="title">title</h3>
+            <a class="prev">‹</a>
+            <a class="next">›</a>
+            <a class="close">×</a>
+            <!-- The modal dialog, which will be used to wrap the lightbox content -->
+        </div>
+
 		<!-- JS includes -->
 
         <script src="/static-assets/js/vendor/jquery-1.11.2.min.js"></script>
@@ -74,7 +87,8 @@
         
         <script src="/static-assets/js/bootsnav.js"></script>
 
-        <script src="/static-assets/js/plugins.js"></script>    
+        <script src="/static-assets/js/plugins.js"></script>
+        <script src="/static-assets/js/jquery.blueimp-gallery.min.js"></script>
         <script src="/static-assets/js/main.js"></script>
         
         <@studio.toolSupport/>  
