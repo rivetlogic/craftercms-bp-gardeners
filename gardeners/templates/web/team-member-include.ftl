@@ -15,7 +15,7 @@
   
                         <#if memberModel.skills?? && memberModel.skills.item??>
                         
-                          <div class="team_skill_title fix m-top-40 m-bottom-40">
+                          <div class="team_skill_title fix m-top-40 m-bottom-40 skill-fix">
                               <h5>${memberModel.skillsTitle}</h5>
                           </div>
     
@@ -51,7 +51,7 @@
                     <div class="team_item team_content xs-m-top-30">
                     
                       <#if memberModel.famousQuote != "">
-                          <h4>${memberModel.famousQuote}</h4>
+                          <h4 class="quote-fix">${memberModel.famousQuote}</h4>
                           <h5 class="m-top-40">- ${memberModel.famousQuoteAuthor}</h5>
     
                           <div class="divider"></div>
