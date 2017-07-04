@@ -30,7 +30,7 @@
                             <img src="${contentModel.footerLogo!""}" alt="">
                             <p>${footerDescription!""}</p>
                         </div>
-                        <ul class="list-inline m-top-30">
+                        <ul class="list-inline m-top-30 social-elements">
                             <#if contentModel.facebook?? && contentModel.facebook != "">
                             	<li><a href="${contentModel.facebook}"><i class="fa fa-facebook"></i></a></li></#if>
                             <#if contentModel.twitter?? && contentModel.twitter != "">

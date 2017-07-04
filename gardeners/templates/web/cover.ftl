@@ -21,7 +21,7 @@
 
 	<#if contentModel.backgroundVideo?? && (contentModel.backgroundVideo?length>0) >    	
 		
-      <video loop muted autoplay id="cover_video_spbb" ${bgVideoPoster} preload="metadata" height="925">
+      <video loop muted autoplay id="cover_video_spbb" ${bgVideoPoster} preload="metadata" height="925" playsinline>
         <source src="${contentModel.backgroundVideo}" type="video/mp4">
       </video>
 	 	

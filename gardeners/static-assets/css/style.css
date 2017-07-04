@@ -701,6 +701,14 @@ textarea::-ms-input-placeholder{
 .fix{
     overflow: hidden;
 }
+
+.skill-fix {
+    height: 50px;
+}
+
+.quote-fix {
+    height: 115px;
+}
 /*heading title all area*/
 .head_title{
     padding-bottom: 2.143rem;
@@ -979,6 +987,9 @@ Featured section style
     color:#2c82c9;
 }
 
+.social-elements {
+    padding-bottom: 13px;
+}
 
 /*dialogue section style*/
 
