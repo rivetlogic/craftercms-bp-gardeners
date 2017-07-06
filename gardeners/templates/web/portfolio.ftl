@@ -103,9 +103,9 @@
                                             
                                                 <div class="col-sm-4">
                                                     <div class="port_item xs-m-top-30">
-                                                        <div class="port_img">
+                                                        <div class="port_img clickable">
                                                             <img src="${portfolioItem.image}" alt="" />
-                                                            <div class="port_overlay text-center">
+                                                            <div class="port_overlay text-center clickable" oonclick="void(0)">
                                                                 <#if portfolioItem.link?? &&  portfolioItem.link != "">
                                                                     <a href="${portfolioItem.link}" >&uarr;</a>
                                                                 <#else>
