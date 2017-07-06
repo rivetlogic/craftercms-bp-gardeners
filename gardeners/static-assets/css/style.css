@@ -1093,6 +1093,7 @@ work Section style
     padding-top: 50%;
     opacity: 0;
     transition: all 0.2s;
+    cursor: pointer;
 }
 .main_product .port_overlay a{
     width:40px;
@@ -1114,8 +1115,6 @@ work Section style
 .main_product .port_img:hover .port_overlay{
     opacity: 1;
 }
-
-
 
 
 /*Team Section
@@ -1460,4 +1459,8 @@ work Section style
 ======================*/
 span.scrollIndicatorTitle{
 	display:none;
+}
+
+.clickable {
+    cursor: pointer;
 }

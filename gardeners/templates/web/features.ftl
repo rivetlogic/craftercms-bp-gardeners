@@ -22,11 +22,11 @@
                       </#if> 
                       <div class="features_item ${topm}">
                       	<#if aFeature.image?? && aFeature.image!="">
-                       		<div class="f_item_icon">
+                       		<div class="f_item_icon clickable">
                         		<img src="${aFeature.image}"/>
                              </div>
                         <#else>                        
-                          	<div class="f_item_icon">
+                          	<div class="f_item_icon clickable">
                               	<i class="icon ${aFeature.icon!""}"></i>
                           	</div>
                         </#if>
