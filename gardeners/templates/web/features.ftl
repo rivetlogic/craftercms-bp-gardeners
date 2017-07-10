@@ -9,7 +9,7 @@
 		<div <@studio.iceAttr iceGroup="featuresGroup" path=contentModel.storeUrl label="Features"/> ></div>
     
         <div class="row">
-            <div class="main_features fix roomy-40">
+            <div class="main_features fix roomy-80 roomy-80-s">
                               
 	          <#if contentModel.features?? && contentModel.features.item??>
     	        <#list contentModel.features.item as aFeature>
