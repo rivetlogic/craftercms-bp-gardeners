@@ -5,7 +5,7 @@
 	<objectGroupId>0b8f</objectGroupId>
 	<objectId>0b8f4167-3bdc-434a-533e-dec6e278e644</objectId>
 	<actionCardButtons>	<item>	<label>Contact Us</label>
-	<buttonURL>#xx</buttonURL>
+	<buttonURL>#contact</buttonURL>
 	<buttonType>btn-primary</buttonType>
 	</item></actionCardButtons>
 	<file-name>our_business.xml</file-name>
@@ -23,6 +23,6 @@
 &lt;/ul&gt;</actionCardText>
 	<createdDate>5/29/2017 23:3:1</createdDate>
 	<createdDate_dt>5/29/2017 23:3:1</createdDate_dt>
-	<lastModifiedDate>6/8/2017 21:8:38</lastModifiedDate>
-	<lastModifiedDate_dt>6/8/2017 21:8:38</lastModifiedDate_dt>
+	<lastModifiedDate>7/10/2017 20:16:44</lastModifiedDate>
+	<lastModifiedDate_dt>7/10/2017 20:16:44</lastModifiedDate_dt>
 </component>
