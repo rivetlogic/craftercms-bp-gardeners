@@ -15,11 +15,11 @@
     	        <#list contentModel.features.item as aFeature>
                 
         	      <div class="col-md-6">
-                  
-                  	  <#assign topm = "m-top-70" />
+
+                  	  <#assign topm = "m-top-40" />
                       <#if (aFeature?index <2)>
                       	<#assign topm = "sm-m-top-30" />
-                      </#if> 
+                      </#if>
                       <div class="features_item ${topm}">
                       	<#if aFeature.image?? && aFeature.image!="">
                        		<div class="f_item_icon clickable">
