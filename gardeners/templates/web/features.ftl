@@ -9,17 +9,17 @@
 		<div <@studio.iceAttr iceGroup="featuresGroup" path=contentModel.storeUrl label="Features"/> ></div>
     
         <div class="row">
-            <div class="main_features fix roomy-70">
+            <div class="main_features fix roomy-40">
                               
 	          <#if contentModel.features?? && contentModel.features.item??>
     	        <#list contentModel.features.item as aFeature>
                 
         	      <div class="col-md-6">
-                  
-                  	  <#assign topm = "m-top-70" />
+
+                  	  <#assign topm = "m-top-40" />
                       <#if (aFeature?index <2)>
                       	<#assign topm = "sm-m-top-30" />
-                      </#if> 
+                      </#if>
                       <div class="features_item ${topm}">
                       	<#if aFeature.image?? && aFeature.image!="">
                        		<div class="f_item_icon clickable">

@@ -1464,3 +1464,7 @@ span.scrollIndicatorTitle{
 .clickable {
     cursor: pointer;
 }
+
+.footer-space {
+    padding-bottom: 20px;
+}
