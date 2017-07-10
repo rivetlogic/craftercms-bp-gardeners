@@ -1,7 +1,7 @@
 <footer id="contact" class="footer bg-black p-top-80">
     <!--<div class="action-lage"></div>-->
     <div class="container">
-        <div class="row">
+        <div class="row footer-space">
             <div class="widget_area">
                 <div class="col-md-4">
                     <div class="widget_item widget_about">
