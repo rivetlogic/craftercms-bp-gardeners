@@ -28,6 +28,8 @@
         <link rel="stylesheet" href="/static-assets/css/magnific-popup.css">
         <link rel="stylesheet" href="/static-assets/css/bootsnav.css">
         <link rel="stylesheet" href="/static-assets/css/blueimp-gallery.min.css">
+        <link rel="stylesheet" href="/static-assets/css/slick/slick.css">
+        <link rel="stylesheet" href="/static-assets/css/slick/slick-theme.css">
 
         <!--For Plugins external css-->
         <link rel="stylesheet" href="/static-assets/css/plugins.css" />
@@ -89,6 +91,7 @@
 
         <script src="/static-assets/js/plugins.js"></script>
         <script src="/static-assets/js/jquery.blueimp-gallery.min.js"></script>
+        <script src="/static-assets/css/slick/slick.min.js"></script>
         <script src="/static-assets/js/main.js"></script>
         
         <@studio.toolSupport/>  

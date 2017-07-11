@@ -1477,3 +1477,8 @@ span.scrollIndicatorTitle{
 .footer-space {
     padding-bottom: 20px;
 }
+
+.slick-prev:before,
+.slick-next:before {
+color: #797979;
+}
