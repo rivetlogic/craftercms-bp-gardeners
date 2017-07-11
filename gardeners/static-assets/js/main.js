@@ -89,6 +89,29 @@ jQuery(document).ready(function ($) {
 
 	 //end Scroll Indicator
 
+    $('.multiple-items').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        responsive: [
+                {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    dots: true
+                }
+            }
+        ]
+    });
+
+
 });
 
 
