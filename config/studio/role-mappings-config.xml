@@ -33,21 +33,21 @@
 
 -->
 <role-mappings>
-    <groups>
-        <group name="Admin">
-            <role>admin</role>
-        </group>
-        <group name="Developer">
-            <role>developer</role>
-        </group>
-        <group name="Author">
-            <role>author</role>
-        </group>
-        <group name="Publisher">
-            <role>publisher</role>
-        </group>
-        <group name="Reviewer">
-            <role>reviewer</role>
-        </group>
-    </groups>
+   <groups>
+      <group name="gardeners-bp_admin">
+         <role>admin</role>
+      </group>
+      <group name="gardeners-bp_developer">
+         <role>developer</role>
+      </group>
+      <group name="gardeners-bp_author">
+         <role>author</role>
+      </group>
+      <group name="gardeners-bp_publisher">
+         <role>publisher</role>
+      </group>
+      <group name="gardeners-bp_reviewer">
+         <role>reviewer</role>
+      </group>
+   </groups>
 </role-mappings>
