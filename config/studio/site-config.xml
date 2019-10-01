@@ -5,8 +5,8 @@
 
 -->
 <site-config>
-    <wem-project>{siteName}</wem-project>
-    <display-name>{siteName}</display-name>
+    <wem-project>gardeners-bp</wem-project>
+    <display-name>gardeners-bp</display-name>
     <default-timezone>EST5EDT</default-timezone>
 
     <repository rootPrefix="/site">
