@@ -268,7 +268,7 @@
          <fields>
             <field>
                <type>image-picker</type>
-               <id>frontImage</id>
+               <id>frontImage_s</id>
                <iceId>coverFrontImage</iceId>
                <title>Front Image</title>
                <description/>

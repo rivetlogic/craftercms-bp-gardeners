@@ -39,7 +39,7 @@
                     <div class="hello_slid">
                         <div class="slid_item xs-text-center">
                             <div class="col-sm-4" <@studio.iceAttr iceGroup="coverFrontImage" path=contentModel.storeUrl label="Cover Front Image"/>>
-                                <img src="${contentModel.frontImage!""}" alt="" />
+                                <img src="${contentModel.frontImage_s!""}" alt="" />
                             </div>
                             <div class="col-sm-8">
                                 <div class="home_text xs-m-top-30" <@studio.iceAttr iceGroup="coverIntroductoryText" path=contentModel.storeUrl label="Cover Introductory Text"/>>
