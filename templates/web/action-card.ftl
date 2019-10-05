@@ -21,7 +21,7 @@
                     <div class="business_item sm-m-top-50">
                     
                     	<div <@studio.iceAttr iceGroup="actionCardText" path=contentModel.storeUrl label="Action Card Text"/> >
-	                    	${contentModel.actionCardText!""}
+	                    	${contentModel.actionCardText_html!""}
                         </div>
                   
                         <div class="business_btn m-top-50" <@studio.iceAttr iceGroup="actionCardButtons" path=contentModel.storeUrl label="Action Card Buttons"/>>

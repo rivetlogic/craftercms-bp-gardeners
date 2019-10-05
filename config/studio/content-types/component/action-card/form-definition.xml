@@ -264,7 +264,7 @@
             </field>
             <field>
                <type>rte</type>
-               <id>actionCardText</id>
+               <id>actionCardText_html</id>
                <iceId>actionCardText</iceId>
                <title>Text</title>
                <description/>
