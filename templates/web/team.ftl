@@ -7,7 +7,7 @@
             <div class="head_title text-center fix">
             	<!-- Edit Title -->
 				<div <@studio.iceAttr iceGroup="teamTitle" path=contentModel.storeUrl label="Team Title"/> ></div>
-                <h2 class="text-uppercase scrollIndicatorTitle">${contentModel.title}</h2>
+                <h2 class="text-uppercase scrollIndicatorTitle">${contentModel.title_t}</h2>
                 <!-- Edit Description -->
 				<div <@studio.iceAttr iceGroup="teamDescription" path=contentModel.storeUrl label="Team Description"/> ></div>
                 <h5>${contentModel.description}</h5>

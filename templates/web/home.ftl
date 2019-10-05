@@ -8,7 +8,7 @@
 
 <html class="no-js" lang="en"> <!--<![endif]-->
 
-	<#assign siteTitle =  contentModel.title!"" />
+	<#assign siteTitle =  contentModel.title_t!"" />
 
     <head>
         <meta charset="utf-8">

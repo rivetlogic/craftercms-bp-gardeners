@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>title</id>
+               <id>title_t</id>
                <iceId>portfolioTitle</iceId>
                <title>Title</title>
                <description/>
@@ -275,7 +275,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>title</id>
+                     <id>title_t</id>
                      <iceId/>
                      <title>Title</title>
                      <description/>

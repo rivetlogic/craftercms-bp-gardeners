@@ -14,7 +14,7 @@
 
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="head_title text-center fix">
-                        <h2 class="text-uppercase text-white scrollIndicatorTitle">${contentModel.title!""}</h2>
+                        <h2 class="text-uppercase text-white scrollIndicatorTitle">${contentModel.title_t!""}</h2>
                         <h5 class="text-white">${contentModel.description!""}</h5>
                     </div>
                 </div>

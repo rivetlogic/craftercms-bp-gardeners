@@ -31,7 +31,7 @@
                           	</div>
                         </#if>
                           <div class="f_item_text">
-                              <h3>${aFeature.title!""}</h3>
+                              <h3>${aFeature.title_t!""}</h3>
                               <p>${aFeature.description!""}</p>
                           </div>
                       </div>

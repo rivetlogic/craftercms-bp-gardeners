@@ -46,5 +46,5 @@
 	<include>/site/components/sections/buy_action.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></sections>
-	<title>Our Garden</title>
+	<title_t>Our Garden</title_t>
 </page>

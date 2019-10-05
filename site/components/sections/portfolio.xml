@@ -11,13 +11,13 @@
 	<createdDate_dt>2017-4-27T23:54:54.000Z</createdDate_dt>
 	<lastModifiedDate>2017-6-30T16:5:41.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-6-30T16:5:41.000Z</lastModifiedDate_dt>
-	<title>Our Works</title>
+	<title_t>Our Works</title_t>
 	<description>Checkout these amazing works we have done!</description>
 	<portfolioItems>	<item>	<key>/site/components/portfolio/product1.xml</key>
 	<value>Product1</value>
 	<include>/site/components/portfolio/product1.xml</include>
 	<disableFlattening>false</disableFlattening>
-	<title>Magical Path</title>
+	<title_t>Magical Path</title_t>
 	<shortDescription>Located in Oklahoma</shortDescription>
 	<link/>
 	<image>/static-assets/images/work1s.jpeg</image>
@@ -25,27 +25,27 @@
 	<value>Product2</value>
 	<include>/site/components/portfolio/product2.xml</include>
 	<disableFlattening>false</disableFlattening>
-	<title>Tiny House Garden</title>
+	<title_t>Tiny House Garden</title_t>
 	<shortDescription>In Boston Massachusetts</shortDescription>
 	<link/>
 	<image>/static-assets/images/work2s.jpeg</image>
-	</item>	<item>	<title>Hobbit Home</title>
+	</item>	<item>	<title_t>Hobbit Home</title_t>
 	<shortDescription>Magin in Quebec, Canada</shortDescription>
 	<image>/static-assets/images/work3s.jpeg</image>
 	<link/>
-	</item>	<item>	<title>Lovely Patio</title>
+	</item>	<item>	<title_t>Lovely Patio</title_t>
 	<shortDescription>Los Angeles, California</shortDescription>
 	<image>/static-assets/images/work4s.jpeg</image>
 	<link/>
-	</item>	<item>	<title>Babylon tower</title>
+	</item>	<item>	<title_t>Babylon tower</title_t>
 	<shortDescription>Singapore</shortDescription>
 	<image>/static-assets/images/work5s.jpeg</image>
 	<link/>
-	</item>	<item>	<title>Zen garden</title>
+	</item>	<item>	<title_t>Zen garden</title_t>
 	<shortDescription>San Francisco, California</shortDescription>
 	<image>/static-assets/images/work7s.jpeg</image>
 	<link/>
-	</item>	<item>	<title>Zephyr Palace</title>
+	</item>	<item>	<title_t>Zephyr Palace</title_t>
 	<shortDescription>Costa Rica</shortDescription>
 	<image>/static-assets/images/work8s.jpeg</image>
 	<link/>

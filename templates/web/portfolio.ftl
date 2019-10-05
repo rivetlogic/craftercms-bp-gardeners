@@ -8,7 +8,7 @@
             	
                 <!-- Edit Title -->
 				<div <@studio.iceAttr iceGroup="portfolioTitle" path=contentModel.storeUrl label="Portfolio Title"/> ></div>
-                <h2 class="text-uppercase text-black scrollIndicatorTitle">${contentModel.title!""}</h2>
+                <h2 class="text-uppercase text-black scrollIndicatorTitle">${contentModel.title_t!""}</h2>
                 
                 <!-- Edit Description -->
 				<div <@studio.iceAttr iceGroup="portfolioDescription" path=contentModel.storeUrl label="Portfolio Description"/> ></div>
@@ -40,7 +40,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5>${aPortfolioItem.title!""}</h5>
+                                                        <h5>${aPortfolioItem.title_t!""}</h5>
                                                         <h6>${aPortfolioItem.shortDescription!""}</h6>
                                                     </div>
                                                 </div>
