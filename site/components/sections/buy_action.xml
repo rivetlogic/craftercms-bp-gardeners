@@ -14,6 +14,6 @@
 	<actionText>Think green, feel great!</actionText>
 	<buttonLabel>Start Now!</buttonLabel>
 	<buttonURL>#home</buttonURL>
-	<navigationLabel>Start Now!</navigationLabel>
+	<navigationLabel_t>Start Now!</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
 </component>

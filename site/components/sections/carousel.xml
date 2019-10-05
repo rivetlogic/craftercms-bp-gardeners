@@ -19,6 +19,6 @@
 	<text>This is a very happy customer.</text>
 	</item></carouselItems>
 	<carouselBackground>/static-assets/images/test-bg.jpg</carouselBackground>
-	<navigationLabel>Clients</navigationLabel>
+	<navigationLabel_t>Clients</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
 </component>

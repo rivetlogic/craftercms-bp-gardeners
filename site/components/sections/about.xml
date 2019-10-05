@@ -36,6 +36,6 @@
 	<title>Peace and Love</title>
 	<description>You and your family will enjoy&lt;span id="transmark" style="display: none; width: 0px; height: 0px;"&gt;&lt;/span&gt; your garden and the harmony it will bring to your home.&lt;br /&gt;</description>
 	</item></features>
-	<navigationLabel>About Us</navigationLabel>
+	<navigationLabel_t>About Us</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
 </component>

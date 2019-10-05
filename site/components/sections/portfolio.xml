@@ -50,6 +50,6 @@
 	<image>/static-assets/images/work8s.jpeg</image>
 	<link/>
 	</item></portfolioItems>
-	<navigationLabel>Our Work</navigationLabel>
+	<navigationLabel_t>Our Work</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
 </component>

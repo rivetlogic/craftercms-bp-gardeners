@@ -30,6 +30,6 @@
 	<include>/site/components/team/member4.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></teamMembers>
-	<navigationLabel>Team</navigationLabel>
+	<navigationLabel_t>Team</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
 </component>

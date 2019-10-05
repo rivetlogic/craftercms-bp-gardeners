@@ -11,7 +11,7 @@
 	<file-name>our_business.xml</file-name>
 	<folder-name/>
 	<internal-name>Our Business</internal-name>
-	<navigationLabel>Our Business</navigationLabel>
+	<navigationLabel_t>Our Business</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
 	<actionCardBackgroundImage>/static-assets/images/blue-drop-of-water-bg.jpg</actionCardBackgroundImage>
 	<actionCardForegroundImage>/static-assets/images/image-businnes-fg.jpeg</actionCardForegroundImage>

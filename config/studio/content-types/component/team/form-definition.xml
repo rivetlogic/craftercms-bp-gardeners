@@ -118,7 +118,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>navigationLabel</id>
+               <id>navigationLabel_t</id>
                <iceId>navigationLabel</iceId>
                <title>Navigation Label</title>
                <description/>

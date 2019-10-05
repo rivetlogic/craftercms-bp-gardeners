@@ -38,6 +38,6 @@
 	</item></coverButtons>
 	<backgroundImage>/static-assets/images//bg-image.jpg</backgroundImage>
 	<backgroundVideo>/static-assets/videos/704308068.mp4</backgroundVideo>
-	<navigationLabel>Home</navigationLabel>
+	<navigationLabel_t>Home</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
 </component>
