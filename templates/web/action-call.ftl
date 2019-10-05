@@ -10,7 +10,7 @@
                     <div class="action_item text-center">
                     	<!-- Edit Text -->
 						<div <@studio.iceAttr iceGroup="actionCallText" path=contentModel.storeUrl label="Action Call Text"/> ></div>
-                        <h2 class="text-white text-uppercase">${contentModel.actionText!""}</h2>
+                        <h2 class="text-white text-uppercase">${contentModel.actionText_t!""}</h2>
                     </div>
                 </div>
                 <div class="col-md-4">

@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>actionText</id>
+               <id>actionText_t</id>
                <iceId>actionCallText</iceId>
                <title>Action Text</title>
                <description/>
