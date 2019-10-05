@@ -29,7 +29,7 @@
 	<twitter_s>https://twitter.com</twitter_s>
 	<linkedin_s>https://www.linkedin.com</linkedin_s>
 	<google_plus_s>https://plus.google.com/</google_plus_s>
-	<contactUs>&lt;div class="widget_item widget_about"&gt;
+	<contactUs_html>&lt;div class="widget_item widget_about"&gt;
 &lt;h5 class="text-white"&gt;Contact Us&lt;/h5&gt;
 &lt;p class="m-top-20"&gt;Let us build your dream together. Here are the ways you can reach us to start it:&lt;/p&gt;
 &lt;div class="widget_ab_item m-top-30"&gt;
@@ -53,5 +53,5 @@
 &lt;p&gt;ourgarden@mail.com&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</contactUs>
+&lt;/div&gt;</contactUs_html>
 </component>

@@ -5,7 +5,7 @@
             <div class="widget_area">
                 <div class="col-md-4">
                     <div class="widget_item widget_about">
-                        ${contentModel.contactUs!""}
+                        ${contentModel.contactUs_html!""}
                     </div><!-- End off widget item -->
                 </div><!-- End off col-md-3 -->
 
