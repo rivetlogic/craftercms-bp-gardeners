@@ -394,7 +394,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>footerDescription</id>
+               <id>footerDescription_t</id>
                <iceId>footerDescription</iceId>
                <title>Footer Description</title>
                <description/>

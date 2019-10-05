@@ -28,7 +28,7 @@
                         
                         <div class="widget_brand m-top-40">
                             <img src="${contentModel.footerLogo_s!""}" alt="">
-                            <p>${footerDescription!""}</p>
+                            <p>${footerDescription_t!""}</p>
                         </div>
                         <ul class="list-inline m-top-30 social-elements">
                             <#if contentModel.facebook_s?? && contentModel.facebook_s != "">
