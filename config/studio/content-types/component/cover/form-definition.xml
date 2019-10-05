@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>label</type>
-               <id>background</id>
+               <id>background_t</id>
                <iceId/>
                <title>Background</title>
                <description/>
