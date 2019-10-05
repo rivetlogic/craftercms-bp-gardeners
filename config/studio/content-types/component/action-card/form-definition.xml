@@ -216,7 +216,7 @@
             </field>
             <field>
                <type>image-picker</type>
-               <id>actionCardForegroundImage</id>
+               <id>actionCardForegroundImage_s</id>
                <iceId>actionCardForegroundImage</iceId>
                <title>Foreground Image</title>
                <description/>

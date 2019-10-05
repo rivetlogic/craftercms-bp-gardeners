@@ -9,7 +9,7 @@
 <section id="business" class="business bg-blue roomy-70" <@studio.componentAttr path=contentModel.storeUrl />  ${bgStyle}>
 
 <!-- Edit Image -->
-<div <@studio.iceAttr iceGroup="actionCardBackgroundImage_s" path=contentModel.storeUrl label="Action Card Background Image"/> ></div>
+<div <@studio.iceAttr iceGroup="actionCardBackgroundImage" path=contentModel.storeUrl label="Action Card Background Image"/> ></div>
 
 	<#if contentModel.sectionTitle?? ><span class="scrollIndicatorTitle">${contentModel.sectionTitle}</span></#if>
     
@@ -39,7 +39,7 @@
                 <div class="col-md-7">
                     <div class="business_item">
                         <div class="business_img business_img_card" <@studio.iceAttr iceGroup="actionCardForegroundImage" path=contentModel.storeUrl  label="Action Card Image"/>>
-                            <img src="${contentModel.actionCardForegroundImage!""}" alt="" />
+                            <img src="${contentModel.actionCardForegroundImage_s!""}" alt="" />
                         </div>
                     </div>
                 </div>

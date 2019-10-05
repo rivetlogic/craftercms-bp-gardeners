@@ -14,7 +14,7 @@
 	<navigationLabel_t>Our Business</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
 	<actionCardBackgroundImage_s>/static-assets/images/blue-drop-of-water-bg.jpg</actionCardBackgroundImage_s>
-	<actionCardForegroundImage>/static-assets/images/image-businnes-fg.jpeg</actionCardForegroundImage>
+	<actionCardForegroundImage_s>/static-assets/images/image-businnes-fg.jpeg</actionCardForegroundImage_s>
 	<actionCardText>&lt;h2 class="text-uppercase text-white"&gt;&lt;strong&gt;We&lt;/strong&gt; understand you&lt;/h2&gt;
 &lt;p class="m-top-20 text-white"&gt;We mastering latest sustainable techniques to design and build a beautiful garden according to your budget, time and dedication. We also assist you to use the latest tech gadgets to make the maintenance of you own paradise an easy and fun task to do. With us you will have the garden...&lt;/p&gt;
 &lt;ul class="text-white"&gt;
