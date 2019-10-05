@@ -16,7 +16,7 @@
                         <#if memberModel.skills_o?? && memberModel.skills_o.item??>
                         
                           <div class="team_skill_title fix m-top-40 m-bottom-40 skill-fix">
-                              <h5>${memberModel.skills_oTitle_t}</h5>
+                              <h5>${memberModel.skillsTitle_t}</h5>
                           </div>
     
                           <div class="skill_bar sm-m-top-50 m-top-20">
