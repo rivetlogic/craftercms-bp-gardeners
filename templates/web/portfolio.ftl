@@ -32,8 +32,8 @@
                                                     <div class="port_img">
                                                         <img src="${aPortfolioItem.image_s!""}" alt="" />
                                                         <div class="port_overlay text-center">
-                                                            <#if aPortfolioItem.link?? &&  aPortfolioItem.link != "">
-                                                                <a href="${aPortfolioItem.link!""}" >&uarr;</a>
+                                                            <#if aPortfolioItem.link_s?? &&  aPortfolioItem.link_s != "">
+                                                                <a href="${aPortfolioItem.link_s!""}" >&uarr;</a>
                                                             <#else>
                                                                 <a href="${aPortfolioItem.image_s!""}" class="gallery-image" data-gallery>&#43;</a>
                                                             </#if>
