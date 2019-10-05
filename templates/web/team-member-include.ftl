@@ -9,7 +9,7 @@
                     <div class="team_item team_skill">
                         <div class="team_author">
 
-                            <h4>${memberModel.fullName}</h4>
+                            <h4>${memberModel.fullName_t}</h4>
                             <p>${memberModel.jobTitle}</p>
                         </div>
   
