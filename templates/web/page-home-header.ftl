@@ -34,9 +34,9 @@
 
         <!-- Start Header Navigation -->  
       	<div class="collapse navbar-collapse" id="navbar-menu">
-          <#if contentModel.sections?? && contentModel.sections.item??>
+          <#if contentModel.sections_o?? && contentModel.sections_o.item??>
               <ul class="nav navbar-nav navbar-right">
-              <#list contentModel.sections.item![] as aSection>
+              <#list contentModel.sections_o.item![] as aSection>
                   <#assign sectionItem =  siteItemService.getSiteItem(aSection.key) />                 		
                   <#if sectionItem?? && sectionItem.includeNavBar_b?? && sectionItem.includeNavBar_b>
                       <li><a href='#${sectionItem["internal-name"]?replace(" ", "_")}'>${sectionItem.navigationLabel_t}</a></li>

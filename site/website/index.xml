@@ -13,7 +13,7 @@
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-15T18:23:3.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-15T18:23:3.000Z</lastModifiedDate_dt>
-	<sections>	<item>	<key>/site/components/sections/home.xml</key>
+	<sections_o>	<item>	<key>/site/components/sections/home.xml</key>
 	<value>Welcome</value>
 	<include>/site/components/sections/home.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -45,6 +45,6 @@
 	<value>Buy Action</value>
 	<include>/site/components/sections/buy_action.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></sections>
+	</item></sections_o>
 	<title_t>Our Garden</title_t>
 </page>

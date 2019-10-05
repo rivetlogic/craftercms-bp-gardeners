@@ -171,7 +171,7 @@
          <fields>
             <field>
                <type>node-selector</type>
-               <id>sections</id>
+               <id>sections_o</id>
                <iceId>sections</iceId>
                <title>Sections</title>
                <description/>
