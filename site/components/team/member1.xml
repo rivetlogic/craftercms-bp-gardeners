@@ -4,13 +4,13 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>1b53</objectGroupId>
 	<objectId>1b537cbe-3f3a-3423-fed0-9cad9c168989</objectId>
-	<skills_o>	<item>	<skillName>Planning</skillName>
+	<skills_o>	<item>	<skillName_t>Planning</skillName_t>
 	<skillLevel>100%</skillLevel>
-	</item>	<item>	<skillName>Selection of best materials</skillName>
+	</item>	<item>	<skillName_t>Selection of best materials</skillName_t>
 	<skillLevel>100%</skillLevel>
-	</item>	<item>	<skillName>Creativity and Visualization</skillName>
+	</item>	<item>	<skillName_t>Creativity and Visualization</skillName_t>
 	<skillLevel>95%</skillLevel>
-	</item>	<item>	<skillName>CADD and GIS</skillName>
+	</item>	<item>	<skillName_t>CADD and GIS</skillName_t>
 	<skillLevel>95%</skillLevel>
 	</item></skills_o>
 	<internal-name>Member1</internal-name>

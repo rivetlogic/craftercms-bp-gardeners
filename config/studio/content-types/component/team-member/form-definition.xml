@@ -310,7 +310,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>skillName</id>
+                     <id>skillName_t</id>
                      <iceId>teamMemberICE</iceId>
                      <title>Name</title>
                      <description/>

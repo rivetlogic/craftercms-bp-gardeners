@@ -4,13 +4,13 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>3d3a</objectGroupId>
 	<objectId>3d3a6ddb-9bf0-7cd2-cc36-1f241cd6a10d</objectId>
-	<skills_o>	<item>	<skillName>Soil knowledge</skillName>
+	<skills_o>	<item>	<skillName_t>Soil knowledge</skillName_t>
 	<skillLevel>100%</skillLevel>
-	</item>	<item>	<skillName>Sustainability strategy</skillName>
+	</item>	<item>	<skillName_t>Sustainability strategy</skillName_t>
 	<skillLevel>95%</skillLevel>
-	</item>	<item>	<skillName>Geography and Climatic conditions</skillName>
+	</item>	<item>	<skillName_t>Geography and Climatic conditions</skillName_t>
 	<skillLevel>90%</skillLevel>
-	</item>	<item>	<skillName>Plant knowledge</skillName>
+	</item>	<item>	<skillName_t>Plant knowledge</skillName_t>
 	<skillLevel>100%</skillLevel>
 	</item></skills_o>
 	<internal-name>Member2</internal-name>

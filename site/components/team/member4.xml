@@ -4,13 +4,13 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>85b6</objectGroupId>
 	<objectId>85b66afb-3bc5-8f73-e736-839abaca3f06</objectId>
-	<skills_o>	<item>	<skillName>Analytical skills</skillName>
+	<skills_o>	<item>	<skillName_t>Analytical skills</skillName_t>
 	<skillLevel>100%</skillLevel>
-	</item>	<item>	<skillName>Good problem-solving</skillName>
+	</item>	<item>	<skillName_t>Good problem-solving</skillName_t>
 	<skillLevel>95%</skillLevel>
-	</item>	<item>	<skillName>Pay close attention to detail</skillName>
+	</item>	<item>	<skillName_t>Pay close attention to detail</skillName_t>
 	<skillLevel>100%</skillLevel>
-	</item>	<item>	<skillName>Knowledge in building materials</skillName>
+	</item>	<item>	<skillName_t>Knowledge in building materials</skillName_t>
 	<skillLevel>95%</skillLevel>
 	</item></skills_o>
 	<file-name>member4.xml</file-name>
