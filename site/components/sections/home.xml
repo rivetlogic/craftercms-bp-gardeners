@@ -19,7 +19,7 @@
 	<value>Buy Now</value>
 	<include>/site/components/buttons/buy_now.xml</include>
 	<disableFlattening>false</disableFlattening>
-	<label>Visit Us</label>
+	<label_t>Visit Us</label_t>
 	<buttonType>btn-primary</buttonType>
 	<targetPage>		<item><key>/site/website/products/index.xml</key>
 <value>Products</value>
@@ -27,7 +27,7 @@
 <disableFlattening>false</disableFlattening>
 		</item></targetPage>
 	<buttonURL_s>#About</buttonURL_s>
-	</item>	<item>	<label>See Our Magic</label>
+	</item>	<item>	<label_t>See Our Magic</label_t>
 	<buttonType>btn-default</buttonType>
 	<targetPage>		<item><key>/site/website/products/index.xml</key>
 <value>Products</value>

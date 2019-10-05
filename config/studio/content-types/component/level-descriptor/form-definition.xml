@@ -306,7 +306,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>label</id>
+                     <id>label_t</id>
                      <iceId/>
                      <title>Label</title>
                      <description/>

@@ -13,15 +13,15 @@
 	<headerLogo>/static-assets/images//logo.png</headerLogo>
 	<footerLogo>/static-assets/images/logo_footer.png</footerLogo>
 	<relevantLinksTitle>Go further</relevantLinksTitle>
-	<relevantLinks>	<item>	<label>10 Best Gardens</label>
+	<relevantLinks>	<item>	<label_t>10 Best Gardens</label_t>
 	<url>http://www.telegraph.co.uk/gardening/gardenstovisit/9796512/The-worlds-10-best-gardens.html</url>
-	</item>	<item>	<label>Sustainable Gardening</label>
+	</item>	<item>	<label_t>Sustainable Gardening</label_t>
 	<url>https://www.planetnatural.com/sustainable-gardening/</url>
-	</item>	<item>	<label>Environmentally Friendly Gardening</label>
+	</item>	<item>	<label_t>Environmentally Friendly Gardening</label_t>
 	<url>http://www.gtftreecare.co.uk/environmentally-friendly-gardening/</url>
-	</item>	<item>	<label>Association Professional Gardeners</label>
+	</item>	<item>	<label_t>Association Professional Gardeners</label_t>
 	<url>http://www.associationofprofessionalgardeners.org/</url>
-	</item>	<item>	<label>Organic Supplies</label>
+	</item>	<item>	<label_t>Organic Supplies</label_t>
 	<url>https://www.greenharvest.com.au/</url>
 	</item></relevantLinks>
 	<footerDescription>You Will love Our Garden!</footerDescription>
