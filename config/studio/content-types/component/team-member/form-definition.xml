@@ -488,7 +488,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>socialMediaTitle</id>
+               <id>socialMediaTitle_t</id>
                <iceId>teamMemberICE</iceId>
                <title>Social Media Title</title>
                <description/>

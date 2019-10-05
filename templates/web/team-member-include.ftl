@@ -57,9 +57,9 @@
                           <div class="divider"></div>
                       </#if>
     
-                      <#if memberModel.socialMediaTitle != "">
+                      <#if memberModel.socialMediaTitle_t != "">
                           <div class="team_socail">
-                              <h5>${memberModel.socialMediaTitle!""}</h5>
+                              <h5>${memberModel.socialMediaTitle_t!""}</h5>
                               <ul class="list-inline m-top-20">
                                   <#if  memberModel.facebook?? && memberModel.facebook != "">
                                   	<li><a href="${memberModel.facebook}"><i class="fa fa-facebook"></i></a></li>
