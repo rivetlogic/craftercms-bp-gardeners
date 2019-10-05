@@ -13,8 +13,8 @@
                 <div class="widget_item widget_service sm-m-top-50">
                   <h5 class="text-white">${contentModel.relevantLinksTitle_t!""}</h5>
                   <ul class="m-top-10">
-                  	<#if contentModel.relevantLinks?? && contentModel.relevantLinks.item??>
-    					<#list contentModel.relevantLinks.item![] as aLink>
+                  	<#if contentModel.relevantLinks_o?? && contentModel.relevantLinks_o.item??>
+    					<#list contentModel.relevantLinks_o.item![] as aLink>
                           <li class="m-top-20"><a href="${aLink.url}"><i class="fa fa-angle-right"></i> ${aLink.label_t}</a></li>
                         </#list>
                     </#if>

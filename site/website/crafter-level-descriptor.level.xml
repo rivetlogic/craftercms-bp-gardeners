@@ -13,7 +13,7 @@
 	<headerLogo_s>/static-assets/images//logo.png</headerLogo_s>
 	<footerLogo_s>/static-assets/images/logo_footer.png</footerLogo_s>
 	<relevantLinksTitle_t>Go further</relevantLinksTitle_t>
-	<relevantLinks>	<item>	<label_t>10 Best Gardens</label_t>
+	<relevantLinks_o>	<item>	<label_t>10 Best Gardens</label_t>
 	<url>http://www.telegraph.co.uk/gardening/gardenstovisit/9796512/The-worlds-10-best-gardens.html</url>
 	</item>	<item>	<label_t>Sustainable Gardening</label_t>
 	<url>https://www.planetnatural.com/sustainable-gardening/</url>
@@ -23,7 +23,7 @@
 	<url>http://www.associationofprofessionalgardeners.org/</url>
 	</item>	<item>	<label_t>Organic Supplies</label_t>
 	<url>https://www.greenharvest.com.au/</url>
-	</item></relevantLinks>
+	</item></relevantLinks_o>
 	<footerDescription>You Will love Our Garden!</footerDescription>
 	<facebook_s>http://www.facebook.com</facebook_s>
 	<twitter_s>https://twitter.com</twitter_s>
