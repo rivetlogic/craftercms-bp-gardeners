@@ -242,7 +242,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>relevantLinksTitle</id>
+               <id>relevantLinksTitle_t</id>
                <iceId/>
                <title>Relevant Links Title</title>
                <description/>

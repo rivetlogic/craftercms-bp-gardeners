@@ -12,7 +12,7 @@
 	<lastModifiedDate_dt>2017-6-8T20:28:1.000Z</lastModifiedDate_dt>
 	<headerLogo_s>/static-assets/images//logo.png</headerLogo_s>
 	<footerLogo_s>/static-assets/images/logo_footer.png</footerLogo_s>
-	<relevantLinksTitle>Go further</relevantLinksTitle>
+	<relevantLinksTitle_t>Go further</relevantLinksTitle_t>
 	<relevantLinks>	<item>	<label_t>10 Best Gardens</label_t>
 	<url>http://www.telegraph.co.uk/gardening/gardenstovisit/9796512/The-worlds-10-best-gardens.html</url>
 	</item>	<item>	<label_t>Sustainable Gardening</label_t>

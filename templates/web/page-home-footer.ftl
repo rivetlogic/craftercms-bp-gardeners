@@ -11,7 +11,7 @@
 
               <div class="col-md-4">
                 <div class="widget_item widget_service sm-m-top-50">
-                  <h5 class="text-white">${contentModel.relevantLinksTitle!""}</h5>
+                  <h5 class="text-white">${contentModel.relevantLinksTitle_t!""}</h5>
                   <ul class="m-top-10">
                   	<#if contentModel.relevantLinks?? && contentModel.relevantLinks.item??>
     					<#list contentModel.relevantLinks.item![] as aLink>
