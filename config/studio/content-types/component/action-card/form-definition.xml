@@ -401,7 +401,7 @@
                   </field>
                   <field>
                      <type>dropdown</type>
-                     <id>buttonType</id>
+                     <id>buttonType_s</id>
                      <iceId>buttonType</iceId>
                      <title>Button Type</title>
                      <description/>

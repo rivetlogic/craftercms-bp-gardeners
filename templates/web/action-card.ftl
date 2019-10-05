@@ -28,7 +28,7 @@
                             <#if contentModel.actionCardButtons_o?? && contentModel.actionCardButtons_o.item??>
                               	<#list contentModel.actionCardButtons_o.item as aButton>
                                 	
-                                  <a href="${aButton.buttonURL_s!"#"}" class="btn ${aButton.buttonType!""} m-top-20">${aButton.label_t!""}</a>
+                                  <a href="${aButton.buttonURL_s!"#"}" class="btn ${aButton.buttonType_s!""} m-top-20">${aButton.label_t!""}</a>
                               	</#list>
               				</#if>
                         </div>

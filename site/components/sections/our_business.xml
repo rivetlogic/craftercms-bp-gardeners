@@ -6,7 +6,7 @@
 	<objectId>0b8f4167-3bdc-434a-533e-dec6e278e644</objectId>
 	<actionCardButtons_o>	<item>	<label_t>Contact Us</label_t>
 	<buttonURL_s>#contact</buttonURL_s>
-	<buttonType>btn-primary</buttonType>
+	<buttonType_s>btn-primary</buttonType_s>
 	</item></actionCardButtons_o>
 	<file-name>our_business.xml</file-name>
 	<folder-name/>
