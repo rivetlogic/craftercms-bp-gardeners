@@ -1,15 +1,15 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio/>
 
 <#assign bgStyle="" />
-<#if contentModel.backgroundImage?? && !contentModel.backgroundVideo??>
-	<#assign bgStyle="style='background-image: url(${contentModel.backgroundImage});'" />
+<#if contentModel.backgroundImage_s?? && !contentModel.backgroundVideo??>
+	<#assign bgStyle="style='background-image: url(${contentModel.backgroundImage_s});'" />
 </#if>
 
 <#assign bgVideoClass="" />
 <#assign bgVideoPoster="" />
 <#if contentModel.backgroundVideo?? && (contentModel.backgroundVideo?length>0)>
 	<#assign bgVideoClass="fullscreen-bg" />
-    <#assign bgVideoPoster="poster='${contentModel.backgroundImage}'" />
+    <#assign bgVideoPoster="poster='${contentModel.backgroundImage_s}'" />
 </#if>
 
 

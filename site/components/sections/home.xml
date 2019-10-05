@@ -36,7 +36,7 @@
 		</item></targetPage>
 	<buttonURL_s>#Portfolio</buttonURL_s>
 	</item></coverButtons>
-	<backgroundImage>/static-assets/images//bg-image.jpg</backgroundImage>
+	<backgroundImage_s>/static-assets/images//bg-image.jpg</backgroundImage_s>
 	<backgroundVideo>/static-assets/videos/704308068.mp4</backgroundVideo>
 	<navigationLabel_t>Home</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
