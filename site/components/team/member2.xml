@@ -23,7 +23,7 @@
 	<facebook> https://www.facebook.com</facebook>
 	<file-name>member2.xml</file-name>
 	<folder-name/>
-	<picture>/static-assets/images/member-2s.jpeg</picture>
+	<picture_s>/static-assets/images/member-2s.jpeg</picture_s>
 	<createdDate>2017-5-4T15:56:0.000Z</createdDate>
 	<createdDate_dt>2017-5-4T15:56:0.000Z</createdDate_dt>
 	<lastModifiedDate>2017-6-8T15:27:38.000Z</lastModifiedDate>

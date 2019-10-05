@@ -35,7 +35,7 @@
                                 <div class="col-md-8 col-md-offset-2">
                                     <div class="test_item fix">
                                         <div class="test_img fix">
-                                            <img class="img-circle" src="${carouselItem.picture}" alt="" />
+                                            <img class="img-circle" src="${carouselItem.picture_s}" alt="" />
                                         </div>
     
                                         <div class="test_text text-white">

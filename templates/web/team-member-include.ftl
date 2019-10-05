@@ -42,7 +42,7 @@
                 <div class="col-sm-4">
                     <div class="team_item xs-m-top-30">
                         <div class="port_img">
-                            <img src="${memberModel.picture}" alt="" />
+                            <img src="${memberModel.picture_s}" alt="" />
                         </div>
                     </div>
                 </div><!-- End off col-sm-4 -->
