@@ -27,7 +27,7 @@
                     <div class="widget_item widget_newsletter sm-m-top-50">
                         
                         <div class="widget_brand m-top-40">
-                            <img src="${contentModel.footerLogo!""}" alt="">
+                            <img src="${contentModel.footerLogo_s!""}" alt="">
                             <p>${footerDescription!""}</p>
                         </div>
                         <ul class="list-inline m-top-30 social-elements">

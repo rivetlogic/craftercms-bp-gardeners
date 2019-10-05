@@ -121,7 +121,7 @@
          <fields>
             <field>
                <type>image-picker</type>
-               <id>footerLogo</id>
+               <id>footerLogo_s</id>
                <iceId>footerLogo</iceId>
                <title>Footer Logo</title>
                <description/>
