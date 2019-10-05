@@ -26,7 +26,7 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="#brand">
-                <img src="${contentModel.headerLogo!""}" class="logo" alt="">
+                <img src="${contentModel.headerLogo_s!""}" class="logo" alt="">
             </a>
 
         </div>
