@@ -309,7 +309,7 @@
          <fields>
             <field>
                <type>repeat</type>
-               <id>carouselItems</id>
+               <id>carouselItems_o</id>
                <iceId>carouselItems</iceId>
                <title>Carousel Items</title>
                <description/>

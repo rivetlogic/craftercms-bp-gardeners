@@ -23,8 +23,8 @@
 
                     <div class="carousel-inner" role="listbox">
                     
-                    	<#if contentModel.carouselItems?? && contentModel.carouselItems.item??>
-                          <#list contentModel.carouselItems.item as carouselItem>							
+                    	<#if contentModel.carouselItems_o?? && contentModel.carouselItems_o.item??>
+                          <#list contentModel.carouselItems_o.item as carouselItem>							
                               
                               <#assign active = "" />
                               <#if carouselItem?is_first>
@@ -50,7 +50,7 @@
                     </div><!-- End off carosel inner -->
                     
                     
-                    <#if contentModel.carouselItems?? && (contentModel.carouselItems.item?size > 1) >
+                    <#if contentModel.carouselItems_o?? && (contentModel.carouselItems_o.item?size > 1) >
 
                       <!-- Controls -->
                       <a class="left carousel-control" href="#testslid" role="button" data-slide="prev">
