@@ -63,4 +63,4 @@
 <!--End off Cover Section-->
 
 <!-- Edit Image -->
-<div <@studio.iceAttr iceGroup="coverBackgroundImage" path=contentModel.storeUrl label_t="Cover Background Image"/> ></div>
+<div <@studio.iceAttr iceGroup="coverBackgroundImage" path=contentModel.storeUrl label="Cover Background Image"/> ></div>
