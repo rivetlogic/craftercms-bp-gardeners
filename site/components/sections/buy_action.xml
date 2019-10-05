@@ -13,7 +13,7 @@
 	<lastModifiedDate_dt>2017-7-10T20:18:21.000Z</lastModifiedDate_dt>
 	<actionText_t>Think green, feel great!</actionText_t>
 	<buttonLabel>Start Now!</buttonLabel>
-	<buttonURL>#home</buttonURL>
+	<buttonURL_s>#home</buttonURL_s>
 	<navigationLabel_t>Start Now!</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
 </component>

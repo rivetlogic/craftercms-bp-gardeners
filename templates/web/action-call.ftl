@@ -15,7 +15,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="action_btn text-left sm-text-center" <@studio.iceAttr iceGroup="actionCallButton" path=contentModel.storeUrl label="Action Call Butoon"/>>
-                        <a href="${contentModel.buttonURL!""}" class="btn btn-default">${contentModel.buttonLabel!""}</a>
+                        <a href="${contentModel.buttonURL_s!""}" class="btn btn-default">${contentModel.buttonLabel!""}</a>
                     </div>
                 </div>
             </div>

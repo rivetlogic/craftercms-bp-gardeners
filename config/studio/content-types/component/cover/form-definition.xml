@@ -486,7 +486,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>buttonURL</id>
+                     <id>buttonURL_s</id>
                      <iceId>buttonURL</iceId>
                      <title>Button URL</title>
                      <description/>

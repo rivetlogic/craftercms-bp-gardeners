@@ -5,7 +5,7 @@
 	<objectGroupId>0b8f</objectGroupId>
 	<objectId>0b8f4167-3bdc-434a-533e-dec6e278e644</objectId>
 	<actionCardButtons>	<item>	<label>Contact Us</label>
-	<buttonURL>#contact</buttonURL>
+	<buttonURL_s>#contact</buttonURL_s>
 	<buttonType>btn-primary</buttonType>
 	</item></actionCardButtons>
 	<file-name>our_business.xml</file-name>
