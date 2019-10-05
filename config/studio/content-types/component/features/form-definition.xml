@@ -189,7 +189,7 @@
                <fields>
                   <field>
                      <type>label</type>
-                     <id>imageSelectionLabel</id>
+                     <id>imageSelectionLabel_t</id>
                      <iceId/>
                      <title>Image Selection Label</title>
                      <description/>
