@@ -5,13 +5,13 @@
 	<objectGroupId>3d3a</objectGroupId>
 	<objectId>3d3a6ddb-9bf0-7cd2-cc36-1f241cd6a10d</objectId>
 	<skills_o>	<item>	<skillName_t>Soil knowledge</skillName_t>
-	<skillLevel>100%</skillLevel>
+	<skillLevel_s>100%</skillLevel_s>
 	</item>	<item>	<skillName_t>Sustainability strategy</skillName_t>
-	<skillLevel>95%</skillLevel>
+	<skillLevel_s>95%</skillLevel_s>
 	</item>	<item>	<skillName_t>Geography and Climatic conditions</skillName_t>
-	<skillLevel>90%</skillLevel>
+	<skillLevel_s>90%</skillLevel_s>
 	</item>	<item>	<skillName_t>Plant knowledge</skillName_t>
-	<skillLevel>100%</skillLevel>
+	<skillLevel_s>100%</skillLevel_s>
 	</item></skills_o>
 	<internal-name>Member2</internal-name>
 	<fullName_t>Roger Rabbit</fullName_t>

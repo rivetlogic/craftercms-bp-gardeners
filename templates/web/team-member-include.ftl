@@ -26,7 +26,7 @@
                               <#if anSkill?is_first >
                                 <#assign topmargin = "20" />
                               </#if>
-                              <div class="teamskillbar clearfix m-top-${topmargin} " data-percent="${anSkill.skillLevel}">
+                              <div class="teamskillbar clearfix m-top-${topmargin} " data-percent="${anSkill.skillLevel_s}">
                                 <h6 class="text-uppercase">${anSkill.skillName_t}</h6>
                                 <div class="teamskillbar-bar"></div>
                               </div> <!-- End Skill Bar -->

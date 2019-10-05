@@ -5,13 +5,13 @@
 	<objectGroupId>85b6</objectGroupId>
 	<objectId>85b66afb-3bc5-8f73-e736-839abaca3f06</objectId>
 	<skills_o>	<item>	<skillName_t>Analytical skills</skillName_t>
-	<skillLevel>100%</skillLevel>
+	<skillLevel_s>100%</skillLevel_s>
 	</item>	<item>	<skillName_t>Good problem-solving</skillName_t>
-	<skillLevel>95%</skillLevel>
+	<skillLevel_s>95%</skillLevel_s>
 	</item>	<item>	<skillName_t>Pay close attention to detail</skillName_t>
-	<skillLevel>100%</skillLevel>
+	<skillLevel_s>100%</skillLevel_s>
 	</item>	<item>	<skillName_t>Knowledge in building materials</skillName_t>
-	<skillLevel>95%</skillLevel>
+	<skillLevel_s>95%</skillLevel_s>
 	</item></skills_o>
 	<file-name>member4.xml</file-name>
 	<folder-name/>

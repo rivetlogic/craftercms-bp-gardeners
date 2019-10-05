@@ -353,7 +353,7 @@
                   </field>
                   <field>
                      <type>dropdown</type>
-                     <id>skillLevel</id>
+                     <id>skillLevel_s</id>
                      <iceId>teamMemberICE</iceId>
                      <title>Level</title>
                      <description/>

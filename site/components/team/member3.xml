@@ -5,13 +5,13 @@
 	<objectGroupId>277d</objectGroupId>
 	<objectId>277d97bb-990d-4631-1616-7167c61e5b36</objectId>
 	<skills_o>	<item>	<skillName_t>Set the best team for your needs</skillName_t>
-	<skillLevel>95%</skillLevel>
+	<skillLevel_s>95%</skillLevel_s>
 	</item>	<item>	<skillName_t>Foster punctuality and quality</skillName_t>
-	<skillLevel>95%</skillLevel>
+	<skillLevel_s>95%</skillLevel_s>
 	</item>	<item>	<skillName_t>Convey any event in our work plan</skillName_t>
-	<skillLevel>95%</skillLevel>
+	<skillLevel_s>95%</skillLevel_s>
 	</item>	<item>	<skillName_t>Get your absolute satisfaction</skillName_t>
-	<skillLevel>100%</skillLevel>
+	<skillLevel_s>100%</skillLevel_s>
 	</item></skills_o>
 	<file-name>member3.xml</file-name>
 	<folder-name/>
