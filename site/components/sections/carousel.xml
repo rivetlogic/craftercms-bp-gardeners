@@ -18,7 +18,7 @@
 	</item>	<item>	<picture>/static-assets/images/smile100.png</picture>
 	<text>This is a very happy customer.</text>
 	</item></carouselItems>
-	<carouselBackground>/static-assets/images/test-bg.jpg</carouselBackground>
+	<carouselBackground_s>/static-assets/images/test-bg.jpg</carouselBackground_s>
 	<navigationLabel_t>Clients</navigationLabel_t>
 	<includeNavBar_b>true</includeNavBar_b>
 </component>
