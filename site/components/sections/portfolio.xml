@@ -20,7 +20,7 @@
 	<title_t>Magical Path</title_t>
 	<shortDescription>Located in Oklahoma</shortDescription>
 	<link/>
-	<image>/static-assets/images/work1s.jpeg</image>
+	<image_s>/static-assets/images/work1s.jpeg</image_s>
 	</item>	<item>	<key>/site/components/portfolio/product2.xml</key>
 	<value>Product2</value>
 	<include>/site/components/portfolio/product2.xml</include>
@@ -28,26 +28,26 @@
 	<title_t>Tiny House Garden</title_t>
 	<shortDescription>In Boston Massachusetts</shortDescription>
 	<link/>
-	<image>/static-assets/images/work2s.jpeg</image>
+	<image_s>/static-assets/images/work2s.jpeg</image_s>
 	</item>	<item>	<title_t>Hobbit Home</title_t>
 	<shortDescription>Magin in Quebec, Canada</shortDescription>
-	<image>/static-assets/images/work3s.jpeg</image>
+	<image_s>/static-assets/images/work3s.jpeg</image_s>
 	<link/>
 	</item>	<item>	<title_t>Lovely Patio</title_t>
 	<shortDescription>Los Angeles, California</shortDescription>
-	<image>/static-assets/images/work4s.jpeg</image>
+	<image_s>/static-assets/images/work4s.jpeg</image_s>
 	<link/>
 	</item>	<item>	<title_t>Babylon tower</title_t>
 	<shortDescription>Singapore</shortDescription>
-	<image>/static-assets/images/work5s.jpeg</image>
+	<image_s>/static-assets/images/work5s.jpeg</image_s>
 	<link/>
 	</item>	<item>	<title_t>Zen garden</title_t>
 	<shortDescription>San Francisco, California</shortDescription>
-	<image>/static-assets/images/work7s.jpeg</image>
+	<image_s>/static-assets/images/work7s.jpeg</image_s>
 	<link/>
 	</item>	<item>	<title_t>Zephyr Palace</title_t>
 	<shortDescription>Costa Rica</shortDescription>
-	<image>/static-assets/images/work8s.jpeg</image>
+	<image_s>/static-assets/images/work8s.jpeg</image_s>
 	<link/>
 	</item></portfolioItems>
 	<navigationLabel_t>Our Work</navigationLabel_t>

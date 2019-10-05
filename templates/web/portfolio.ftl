@@ -30,12 +30,12 @@
                                             <div class="col-sm-4">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="${aPortfolioItem.image!""}" alt="" />
+                                                        <img src="${aPortfolioItem.image_s!""}" alt="" />
                                                         <div class="port_overlay text-center">
                                                             <#if aPortfolioItem.link?? &&  aPortfolioItem.link != "">
                                                                 <a href="${aPortfolioItem.link!""}" >&uarr;</a>
                                                             <#else>
-                                                                <a href="${aPortfolioItem.image!""}" class="gallery-image" data-gallery>&#43;</a>
+                                                                <a href="${aPortfolioItem.image_s!""}" class="gallery-image" data-gallery>&#43;</a>
                                                             </#if>
                                                         </div>
                                                     </div>

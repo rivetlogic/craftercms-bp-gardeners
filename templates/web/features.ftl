@@ -21,9 +21,9 @@
                       	<#assign topm = "sm-m-top-30" />
                       </#if>
                       <div class="features_item ${topm}">
-                      	<#if aFeature.image?? && aFeature.image!="">
+                      	<#if aFeature.image_s?? && aFeature.image_s!="">
                        		<div class="f_item_icon clickable">
-                        		<img src="${aFeature.image}"/>
+                        		<img src="${aFeature.image_s}"/>
                              </div>
                         <#else>                        
                           	<div class="f_item_icon clickable">
