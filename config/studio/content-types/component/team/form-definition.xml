@@ -254,7 +254,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>teamMembers</id>
+               <id>teamMembers_o</id>
                <iceId>teamMembers</iceId>
                <title>Members</title>
                <description/>

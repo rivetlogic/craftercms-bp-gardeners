@@ -17,8 +17,8 @@
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     
-                    <#if contentModel.teamMembers?? && contentModel.teamMembers.item??>
-                    <#list contentModel.teamMembers.item as aTeamMember>
+                    <#if contentModel.teamMembers_o?? && contentModel.teamMembers_o.item??>
+                    <#list contentModel.teamMembers_o.item as aTeamMember>
                     	<#assign itemActive = "" />
                     	<#if aTeamMember?is_first>
                         	<#assign itemActive = "active" />
@@ -32,8 +32,8 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">        	
                         
-                    <#if contentModel.teamMembers?? && contentModel.teamMembers.item??>
-                      <#list contentModel.teamMembers.item as aTeamMember>
+                    <#if contentModel.teamMembers_o?? && contentModel.teamMembers_o.item??>
+                      <#list contentModel.teamMembers_o.item as aTeamMember>
                         
                         <#assign active = "" />
                         <#if aTeamMember?is_first>
