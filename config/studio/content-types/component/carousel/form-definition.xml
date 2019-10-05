@@ -378,7 +378,7 @@
                   </field>
                   <field>
                      <type>textarea</type>
-                     <id>text</id>
+                     <id>text_t</id>
                      <iceId/>
                      <title>Text</title>
                      <description/>

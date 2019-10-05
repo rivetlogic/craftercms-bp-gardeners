@@ -8,7 +8,7 @@
             	<!-- Edit Text -->
 				<div <@studio.iceAttr iceGroup="statementText" path=contentModel.storeUrl label="Statement Text"/> ></div>
                 <div class="col-md-12">
-                    <h3>${contentModel.text}</h3>
+                    <h3>${contentModel.rteText_html}</h3>
                 </div>
             </div>
         </div>

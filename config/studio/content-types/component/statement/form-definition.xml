@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>rte</type>
-               <id>text</id>
+               <id>rteText_html</id>
                <iceId>statementText</iceId>
                <title>Text</title>
                <description/>

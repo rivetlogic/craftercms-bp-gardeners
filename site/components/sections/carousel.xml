@@ -14,9 +14,9 @@
 	<title_t>Our Clients</title_t>
 	<description_t>The Clients already give the good feedback</description_t>
 	<carouselItems_o>	<item>	<picture_s>/static-assets/images/test-img1.jpg</picture_s>
-	<text>Mauris posuere lectus nibh mauris interdum fermentum nunc, in fringilla mauris imperdiet non estibulum blandit, nisl non volutpat luctus, nisi leo posuere tortor quis ultrices turpis nisl eu ante.</text>
+	<text_t>Mauris posuere lectus nibh mauris interdum fermentum nunc, in fringilla mauris imperdiet non estibulum blandit, nisl non volutpat luctus, nisi leo posuere tortor quis ultrices turpis nisl eu ante.</text_t>
 	</item>	<item>	<picture_s>/static-assets/images/smile100.png</picture_s>
-	<text>This is a very happy customer.</text>
+	<text_t>This is a very happy customer.</text_t>
 	</item></carouselItems_o>
 	<carouselBackground_s>/static-assets/images/test-bg.jpg</carouselBackground_s>
 	<navigationLabel_t>Clients</navigationLabel_t>

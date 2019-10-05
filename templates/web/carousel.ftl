@@ -39,7 +39,7 @@
                                         </div>
     
                                         <div class="test_text text-white">
-                                            <em>${carouselItem.text}</em>
+                                            <em>${carouselItem.text_t}</em>
     
                                         </div>
                                     </div>
