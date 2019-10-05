@@ -395,7 +395,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>famousQuote</id>
+               <id>famousQuote_t</id>
                <iceId>teamMemberICE</iceId>
                <title>Famous Quote</title>
                <description/>
