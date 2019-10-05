@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>checkbox</type>
-               <id>includeNavBar</id>
+               <id>includeNavBar_b</id>
                <iceId>includeNavBar</iceId>
                <title>Include in Navigation Bar</title>
                <description/>

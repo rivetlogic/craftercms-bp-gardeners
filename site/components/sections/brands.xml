@@ -30,5 +30,5 @@
 	<brandImage>/static-assets/images/brand-4.png</brandImage>
 	</item></brandsSet>
 	<navigationLabel/>
-	<includeNavBar>false</includeNavBar>
+	<includeNavBar_b>false</includeNavBar_b>
 </component>

@@ -15,5 +15,5 @@
 	<buttonLabel>Start Now!</buttonLabel>
 	<buttonURL>#home</buttonURL>
 	<navigationLabel>Start Now!</navigationLabel>
-	<includeNavBar>true</includeNavBar>
+	<includeNavBar_b>true</includeNavBar_b>
 </component>

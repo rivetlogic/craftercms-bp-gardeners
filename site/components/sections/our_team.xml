@@ -31,5 +31,5 @@
 	<disableFlattening>false</disableFlattening>
 	</item></teamMembers>
 	<navigationLabel>Team</navigationLabel>
-	<includeNavBar>true</includeNavBar>
+	<includeNavBar_b>true</includeNavBar_b>
 </component>

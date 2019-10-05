@@ -20,5 +20,5 @@
 	</item></carouselItems>
 	<carouselBackground>/static-assets/images/test-bg.jpg</carouselBackground>
 	<navigationLabel>Clients</navigationLabel>
-	<includeNavBar>true</includeNavBar>
+	<includeNavBar_b>true</includeNavBar_b>
 </component>

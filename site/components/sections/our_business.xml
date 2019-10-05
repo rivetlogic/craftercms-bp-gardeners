@@ -12,7 +12,7 @@
 	<folder-name/>
 	<internal-name>Our Business</internal-name>
 	<navigationLabel>Our Business</navigationLabel>
-	<includeNavBar>true</includeNavBar>
+	<includeNavBar_b>true</includeNavBar_b>
 	<actionCardBackgroundImage>/static-assets/images/blue-drop-of-water-bg.jpg</actionCardBackgroundImage>
 	<actionCardForegroundImage>/static-assets/images/image-businnes-fg.jpeg</actionCardForegroundImage>
 	<actionCardText>&lt;h2 class="text-uppercase text-white"&gt;&lt;strong&gt;We&lt;/strong&gt; understand you&lt;/h2&gt;

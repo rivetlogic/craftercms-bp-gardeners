@@ -38,7 +38,7 @@
               <ul class="nav navbar-nav navbar-right">
               <#list contentModel.sections.item![] as aSection>
                   <#assign sectionItem =  siteItemService.getSiteItem(aSection.key) />                 		
-                  <#if sectionItem?? && sectionItem.includeNavBar?? && sectionItem.includeNavBar = "true">
+                  <#if sectionItem?? && sectionItem.includeNavBar_b?? && sectionItem.includeNavBar_b>
                       <li><a href='#${sectionItem["internal-name"]?replace(" ", "_")}'>${sectionItem.navigationLabel}</a></li>
                   </#if>
               </#list>
