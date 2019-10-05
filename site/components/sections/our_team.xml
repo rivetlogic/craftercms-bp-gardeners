@@ -12,7 +12,7 @@
 	<lastModifiedDate>2017-5-30T17:15:59.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-30T17:15:59.000Z</lastModifiedDate_dt>
 	<title_t>Our Team</title_t>
-	<description>We are more than happy to build your dream garden with you!</description>
+	<description_t>We are more than happy to build your dream garden with you!</description_t>
 	<teamMembers>	<item>	<key>/site/components/team/member1.xml</key>
 	<value>Member1</value>
 	<include>/site/components/team/member1.xml</include>

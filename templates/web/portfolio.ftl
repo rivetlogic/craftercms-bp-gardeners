@@ -13,7 +13,7 @@
                 <!-- Edit Description -->
 				<div <@studio.iceAttr iceGroup="portfolioDescription" path=contentModel.storeUrl label="Portfolio Description"/> ></div>
                 
-                <h5>${contentModel.description!""}</h5>
+                <h5>${contentModel.description_t!""}</h5>
             </div>
 
             <div>

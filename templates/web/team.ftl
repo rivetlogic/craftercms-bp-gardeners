@@ -10,7 +10,7 @@
                 <h2 class="text-uppercase scrollIndicatorTitle">${contentModel.title_t}</h2>
                 <!-- Edit Description -->
 				<div <@studio.iceAttr iceGroup="teamDescription" path=contentModel.storeUrl label="Team Description"/> ></div>
-                <h5>${contentModel.description}</h5>
+                <h5>${contentModel.description_t}</h5>
             </div>
 
             <div id="team-slid" class="carousel slide carousel-fade" data-ride="carousel"  <@studio.iceAttr iceGroup="teamMembers" path=contentModel.storeUrl label="Team Members"/> >

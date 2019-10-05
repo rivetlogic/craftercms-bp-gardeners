@@ -12,7 +12,7 @@
 	<lastModifiedDate>2017-6-30T16:5:41.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-6-30T16:5:41.000Z</lastModifiedDate_dt>
 	<title_t>Our Works</title_t>
-	<description>Checkout these amazing works we have done!</description>
+	<description_t>Checkout these amazing works we have done!</description_t>
 	<portfolioItems>	<item>	<key>/site/components/portfolio/product1.xml</key>
 	<value>Product1</value>
 	<include>/site/components/portfolio/product1.xml</include>

@@ -32,7 +32,7 @@
                         </#if>
                           <div class="f_item_text">
                               <h3>${aFeature.title_t!""}</h3>
-                              <p>${aFeature.description!""}</p>
+                              <p>${aFeature.description_t!""}</p>
                           </div>
                       </div>
                   </div>

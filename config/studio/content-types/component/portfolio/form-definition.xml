@@ -211,7 +211,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>description</id>
+               <id>description_t</id>
                <iceId>portfolioDescription</iceId>
                <title>Description</title>
                <description/>
