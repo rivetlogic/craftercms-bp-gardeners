@@ -254,7 +254,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>buttonLabel</id>
+               <id>buttonLabel_t</id>
                <iceId>actionCallButton</iceId>
                <title>Button Label</title>
                <description/>
