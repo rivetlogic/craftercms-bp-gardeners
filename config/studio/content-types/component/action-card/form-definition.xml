@@ -337,7 +337,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>actionCardButtons</id>
+               <id>actionCardButtons_o</id>
                <iceId>actionCardButtons</iceId>
                <title>Action Buttons</title>
                <description/>

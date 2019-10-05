@@ -25,8 +25,8 @@
                         </div>
                   
                         <div class="business_btn m-top-50" <@studio.iceAttr iceGroup="actionCardButtons" path=contentModel.storeUrl label="Action Card Buttons"/>>
-                            <#if contentModel.actionCardButtons?? && contentModel.actionCardButtons.item??>
-                              	<#list contentModel.actionCardButtons.item as aButton>
+                            <#if contentModel.actionCardButtons_o?? && contentModel.actionCardButtons_o.item??>
+                              	<#list contentModel.actionCardButtons_o.item as aButton>
                                 	
                                   <a href="${aButton.buttonURL_s!"#"}" class="btn ${aButton.buttonType!""} m-top-20">${aButton.label!""}</a>
                               	</#list>
