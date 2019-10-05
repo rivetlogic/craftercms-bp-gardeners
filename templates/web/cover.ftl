@@ -46,8 +46,8 @@
                                     ${contentModel.introductoryText_html!""}
                                 </div>
                                 <div class="home_btns m-top-40" <@studio.iceAttr iceGroup="coverButtons" path=contentModel.storeUrl label="Cover Buttons"/>>
-                                	<#if contentModel.coverButtons?? && contentModel.coverButtons.item??>
-                						<#list contentModel.coverButtons.item as aButton>                  							
+                                	<#if contentModel.coverButtons_o?? && contentModel.coverButtons_o.item??>
+                						<#list contentModel.coverButtons_o.item as aButton>                  							
                                             <a href="${aButton.buttonURL_s!"#"}" class="btn ${aButton.buttonType_s!""} m-top-20">${aButton.label_t!""}</a>
                 						</#list>
               						</#if>
