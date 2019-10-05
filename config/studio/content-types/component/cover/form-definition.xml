@@ -316,7 +316,7 @@
             </field>
             <field>
                <type>rte</type>
-               <id>introductoryText</id>
+               <id>introductoryText_html</id>
                <iceId>coverIntroductoryText</iceId>
                <title>Introductory Text</title>
                <description/>

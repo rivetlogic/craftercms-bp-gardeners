@@ -43,7 +43,7 @@
                             </div>
                             <div class="col-sm-8">
                                 <div class="home_text xs-m-top-30" <@studio.iceAttr iceGroup="coverIntroductoryText" path=contentModel.storeUrl label="Cover Introductory Text"/>>
-                                    ${contentModel.introductoryText!""}
+                                    ${contentModel.introductoryText_html!""}
                                 </div>
                                 <div class="home_btns m-top-40" <@studio.iceAttr iceGroup="coverButtons" path=contentModel.storeUrl label="Cover Buttons"/>>
                                 	<#if contentModel.coverButtons?? && contentModel.coverButtons.item??>
