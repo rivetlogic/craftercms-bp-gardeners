@@ -16,7 +16,7 @@
 	<internal-name>Member2</internal-name>
 	<fullName_t>Roger Rabbit</fullName_t>
 	<jobTitle_t>Gardener</jobTitle_t>
-	<skillsTitle>Super Powers</skillsTitle>
+	<skillsTitle_t>Super Powers</skillsTitle_t>
 	<famousQuote>If you want to be happy for a lifetime, be a gardener</famousQuote>
 	<famousQuoteAuthor>Chinese Proverb</famousQuoteAuthor>
 	<socialMediaTitle>Find me in</socialMediaTitle>

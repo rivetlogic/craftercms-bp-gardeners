@@ -246,7 +246,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>skillsTitle</id>
+               <id>skillsTitle_t</id>
                <iceId>teamMemberICE</iceId>
                <title>Skills Title</title>
                <description/>

@@ -18,7 +18,7 @@
 	<internal-name>Member3</internal-name>
 	<fullName_t>Tom Cat</fullName_t>
 	<jobTitle_t>Team Leader</jobTitle_t>
-	<skillsTitle>These are my commitments</skillsTitle>
+	<skillsTitle_t>These are my commitments</skillsTitle_t>
 	<famousQuote>Unless you have 100% customer satisfaction, you must improve.</famousQuote>
 	<famousQuoteAuthor>Horst Schulz</famousQuoteAuthor>
 	<socialMediaTitle>You Can Find Me</socialMediaTitle>
