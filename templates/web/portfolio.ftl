@@ -41,7 +41,7 @@
                                                     </div>
                                                     <div class="port_caption m-top-20">
                                                         <h5>${aPortfolioItem.title_t!""}</h5>
-                                                        <h6>${aPortfolioItem.shortDescription!""}</h6>
+                                                        <h6>${aPortfolioItem.shortDescription_t!""}</h6>
                                                     </div>
                                                 </div>
                                             </div>

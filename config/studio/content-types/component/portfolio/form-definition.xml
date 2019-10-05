@@ -318,7 +318,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>shortDescription</id>
+                     <id>shortDescription_t</id>
                      <iceId/>
                      <title>Short Description</title>
                      <description/>

@@ -18,7 +18,7 @@
 	<include>/site/components/portfolio/product1.xml</include>
 	<disableFlattening>false</disableFlattening>
 	<title_t>Magical Path</title_t>
-	<shortDescription>Located in Oklahoma</shortDescription>
+	<shortDescription_t>Located in Oklahoma</shortDescription_t>
 	<link/>
 	<image_s>/static-assets/images/work1s.jpeg</image_s>
 	</item>	<item>	<key>/site/components/portfolio/product2.xml</key>
@@ -26,27 +26,27 @@
 	<include>/site/components/portfolio/product2.xml</include>
 	<disableFlattening>false</disableFlattening>
 	<title_t>Tiny House Garden</title_t>
-	<shortDescription>In Boston Massachusetts</shortDescription>
+	<shortDescription_t>In Boston Massachusetts</shortDescription_t>
 	<link/>
 	<image_s>/static-assets/images/work2s.jpeg</image_s>
 	</item>	<item>	<title_t>Hobbit Home</title_t>
-	<shortDescription>Magin in Quebec, Canada</shortDescription>
+	<shortDescription_t>Magin in Quebec, Canada</shortDescription_t>
 	<image_s>/static-assets/images/work3s.jpeg</image_s>
 	<link/>
 	</item>	<item>	<title_t>Lovely Patio</title_t>
-	<shortDescription>Los Angeles, California</shortDescription>
+	<shortDescription_t>Los Angeles, California</shortDescription_t>
 	<image_s>/static-assets/images/work4s.jpeg</image_s>
 	<link/>
 	</item>	<item>	<title_t>Babylon tower</title_t>
-	<shortDescription>Singapore</shortDescription>
+	<shortDescription_t>Singapore</shortDescription_t>
 	<image_s>/static-assets/images/work5s.jpeg</image_s>
 	<link/>
 	</item>	<item>	<title_t>Zen garden</title_t>
-	<shortDescription>San Francisco, California</shortDescription>
+	<shortDescription_t>San Francisco, California</shortDescription_t>
 	<image_s>/static-assets/images/work7s.jpeg</image_s>
 	<link/>
 	</item>	<item>	<title_t>Zephyr Palace</title_t>
-	<shortDescription>Costa Rica</shortDescription>
+	<shortDescription_t>Costa Rica</shortDescription_t>
 	<image_s>/static-assets/images/work8s.jpeg</image_s>
 	<link/>
 	</item></portfolioItems>
