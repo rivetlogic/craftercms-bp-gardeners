@@ -349,7 +349,7 @@
                   </field>
                   <field>
                      <type>input</type>
-                     <id>url</id>
+                     <id>url_s</id>
                      <iceId/>
                      <title>Url</title>
                      <description/>

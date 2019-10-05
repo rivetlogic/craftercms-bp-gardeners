@@ -15,7 +15,7 @@
                   <ul class="m-top-10">
                   	<#if contentModel.relevantLinks_o?? && contentModel.relevantLinks_o.item??>
     					<#list contentModel.relevantLinks_o.item![] as aLink>
-                          <li class="m-top-20"><a href="${aLink.url}"><i class="fa fa-angle-right"></i> ${aLink.label_t}</a></li>
+                          <li class="m-top-20"><a href="${aLink.url_s}"><i class="fa fa-angle-right"></i> ${aLink.label_t}</a></li>
                         </#list>
                     </#if>
                   </ul>

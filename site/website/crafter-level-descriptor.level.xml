@@ -14,15 +14,15 @@
 	<footerLogo_s>/static-assets/images/logo_footer.png</footerLogo_s>
 	<relevantLinksTitle_t>Go further</relevantLinksTitle_t>
 	<relevantLinks_o>	<item>	<label_t>10 Best Gardens</label_t>
-	<url>http://www.telegraph.co.uk/gardening/gardenstovisit/9796512/The-worlds-10-best-gardens.html</url>
+	<url_s>http://www.telegraph.co.uk/gardening/gardenstovisit/9796512/The-worlds-10-best-gardens.html</url_s>
 	</item>	<item>	<label_t>Sustainable Gardening</label_t>
-	<url>https://www.planetnatural.com/sustainable-gardening/</url>
+	<url_s>https://www.planetnatural.com/sustainable-gardening/</url_s>
 	</item>	<item>	<label_t>Environmentally Friendly Gardening</label_t>
-	<url>http://www.gtftreecare.co.uk/environmentally-friendly-gardening/</url>
+	<url_s>http://www.gtftreecare.co.uk/environmentally-friendly-gardening/</url_s>
 	</item>	<item>	<label_t>Association Professional Gardeners</label_t>
-	<url>http://www.associationofprofessionalgardeners.org/</url>
+	<url_s>http://www.associationofprofessionalgardeners.org/</url_s>
 	</item>	<item>	<label_t>Organic Supplies</label_t>
-	<url>https://www.greenharvest.com.au/</url>
+	<url_s>https://www.greenharvest.com.au/</url_s>
 	</item></relevantLinks_o>
 	<footerDescription_t>You Will love Our Garden!</footerDescription_t>
 	<facebook_s>http://www.facebook.com</facebook_s>
