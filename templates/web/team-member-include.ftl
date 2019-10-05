@@ -52,7 +52,7 @@
                     
                       <#if memberModel.famousQuote_t != "">
                           <h4 class="quote-fix">${memberModel.famousQuote_t}</h4>
-                          <h5 class="m-top-40">- ${memberModel.famousQuoteAuthor}</h5>
+                          <h5 class="m-top-40">- ${memberModel.famousQuoteAuthor_t}</h5>
     
                           <div class="divider"></div>
                       </#if>
