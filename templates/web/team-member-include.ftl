@@ -10,7 +10,7 @@
                         <div class="team_author">
 
                             <h4>${memberModel.fullName_t}</h4>
-                            <p>${memberModel.jobTitle}</p>
+                            <p>${memberModel.jobTitle_t}</p>
                         </div>
   
                         <#if memberModel.skills?? && memberModel.skills.item??>

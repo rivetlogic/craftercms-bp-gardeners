@@ -148,7 +148,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>jobTitle</id>
+               <id>jobTitle_t</id>
                <iceId>teamMemberICE</iceId>
                <title>Job Title</title>
                <description/>

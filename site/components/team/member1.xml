@@ -14,7 +14,7 @@
 	<skillLevel>95%</skillLevel>
 	</item></skills>
 	<internal-name>Member1</internal-name>
-	<jobTitle>Landscape Architect</jobTitle>
+	<jobTitle_t>Landscape Architect</jobTitle_t>
 	<skillsTitle>Best Skills</skillsTitle>
 	<file-name>member1.xml</file-name>
 	<folder-name/>
