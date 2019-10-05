@@ -1,15 +1,15 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
 <#assign bgStyle="" />
-<#if contentModel.actionCardBackgroundImage??>
-	<#assign bgStyle="style='background-image: url(${contentModel.actionCardBackgroundImage});'" />
+<#if contentModel.actionCardBackgroundImage_s??>
+	<#assign bgStyle="style='background-image: url(${contentModel.actionCardBackgroundImage_s});'" />
 </#if>
 
 <!--Business Section-->
 <section id="business" class="business bg-blue roomy-70" <@studio.componentAttr path=contentModel.storeUrl />  ${bgStyle}>
 
 <!-- Edit Image -->
-<div <@studio.iceAttr iceGroup="actionCardBackgroundImage" path=contentModel.storeUrl label="Action Card Background Image"/> ></div>
+<div <@studio.iceAttr iceGroup="actionCardBackgroundImage_s" path=contentModel.storeUrl label="Action Card Background Image"/> ></div>
 
 	<#if contentModel.sectionTitle?? ><span class="scrollIndicatorTitle">${contentModel.sectionTitle}</span></#if>
     

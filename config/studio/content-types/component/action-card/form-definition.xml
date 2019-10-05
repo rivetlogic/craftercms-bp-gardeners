@@ -168,7 +168,7 @@
          <fields>
             <field>
                <type>image-picker</type>
-               <id>actionCardBackgroundImage</id>
+               <id>actionCardBackgroundImage_s</id>
                <iceId>actionCardBackgroundImage</iceId>
                <title>Background Image</title>
                <description/>
