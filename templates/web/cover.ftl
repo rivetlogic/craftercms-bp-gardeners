@@ -1,13 +1,13 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio/>
 
 <#assign bgStyle="" />
-<#if contentModel.backgroundImage_s?? && !contentModel.backgroundVideo??>
+<#if contentModel.backgroundImage_s?? && !contentModel.backgroundVideo_s??>
 	<#assign bgStyle="style='background-image: url(${contentModel.backgroundImage_s});'" />
 </#if>
 
 <#assign bgVideoClass="" />
 <#assign bgVideoPoster="" />
-<#if contentModel.backgroundVideo?? && (contentModel.backgroundVideo?length>0)>
+<#if contentModel.backgroundVideo_s?? && (contentModel.backgroundVideo_s?length>0)>
 	<#assign bgVideoClass="fullscreen-bg" />
     <#assign bgVideoPoster="poster='${contentModel.backgroundImage_s}'" />
 </#if>
@@ -19,10 +19,10 @@
 
 	<#if contentModel.sectionTitle?? ><span class="scrollIndicatorTitle">${contentModel.sectionTitle}</span></#if>
 
-	<#if contentModel.backgroundVideo?? && (contentModel.backgroundVideo?length>0) >    	
+	<#if contentModel.backgroundVideo_s?? && (contentModel.backgroundVideo_s?length>0) >    	
 		
       <video loop muted autoplay id="cover_video_spbb" ${bgVideoPoster} preload="metadata" height="925" playsinline>
-        <source src="${contentModel.backgroundVideo}" type="video/mp4">
+        <source src="${contentModel.backgroundVideo_s}" type="video/mp4">
       </video>
 	 	
 	</#if>
