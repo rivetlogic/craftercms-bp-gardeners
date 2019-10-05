@@ -27,7 +27,7 @@
                              </div>
                         <#else>                        
                           	<div class="f_item_icon clickable">
-                              	<i class="icon ${aFeature.icon!""}"></i>
+                              	<i class="icon ${aFeature.icon_s!""}"></i>
                           	</div>
                         </#if>
                           <div class="f_item_text">

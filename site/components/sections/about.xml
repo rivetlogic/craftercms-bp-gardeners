@@ -16,7 +16,7 @@
 	<include>/site/components/features/customize.xml</include>
 	<disableFlattening>false</disableFlattening>
 	<title_t>Unbeatable Designs</title_t>
-	<icon>icon-nature-3</icon>
+	<icon_s>icon-nature-3</icon_s>
 	<image/>
 	<description_t>Our goal is to make the best garden design according to the weather, spacing and your budget.&lt;br /&gt;&lt;span id="transmark" style="display: none; width: 0px; height: 0px;"&gt;&lt;/span&gt;</description_t>
 	</item>	<item>	<key>/site/components/features/responsive.xml</key>
@@ -24,14 +24,14 @@
 	<include>/site/components/features/responsive.xml</include>
 	<disableFlattening>false</disableFlattening>
 	<title_t>Planet Friendly</title_t>
-	<icon>icon-earth</icon>
+	<icon_s>icon-earth</icon_s>
 	<image/>
 	<description_t>We care about our planet that&amp;#39;s why we make sustainable gardens and foster the use of nature friendly supplies.</description_t>
-	</item>	<item>	<icon>icon-nature-1</icon>
+	</item>	<item>	<icon_s>icon-nature-1</icon_s>
 	<image/>
 	<title_t>Teachers of Beauty</title_t>
 	<description_t>We know you will lo&lt;span id="transmark" style="display: none; width: 0px; height: 0px;"&gt;&lt;/span&gt;ve our work, and that&amp;#39;s why we transfer all the knowledge you need to succeed caring your garden.</description_t>
-	</item>	<item>	<icon>icon-shapes</icon>
+	</item>	<item>	<icon_s>icon-shapes</icon_s>
 	<image/>
 	<title_t>Peace and Love</title_t>
 	<description_t>You and your family will enjoy&lt;span id="transmark" style="display: none; width: 0px; height: 0px;"&gt;&lt;/span&gt; your garden and the harmony it will bring to your home.&lt;br /&gt;</description_t>
