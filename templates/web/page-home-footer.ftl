@@ -31,14 +31,14 @@
                             <p>${footerDescription!""}</p>
                         </div>
                         <ul class="list-inline m-top-30 social-elements">
-                            <#if contentModel.facebook?? && contentModel.facebook != "">
-                            	<li><a href="${contentModel.facebook}"><i class="fa fa-facebook"></i></a></li></#if>
-                            <#if contentModel.twitter?? && contentModel.twitter != "">
-                            	<li><a href="${contentModel.twitter}"><i class="fa fa-twitter"></i></a></li></#if>
-                            <#if contentModel.linkedin?? && contentModel.linkedin != "">
-                            	<li><a href="${contentModel.linkedin}"><i class="fa fa-linkedin"></i></a></li></#if>
-                            <#if contentModel.google_plus?? && contentModel.google_plus != "">
-                            	<li><a href="${contentModel.google_plus}"><i class="fa fa-google-plus"></i></a></li></#if>
+                            <#if contentModel.facebook_s?? && contentModel.facebook_s != "">
+                            	<li><a href="${contentModel.facebook_s}"><i class="fa fa-facebook"></i></a></li></#if>
+                            <#if contentModel.twitter_s?? && contentModel.twitter_s != "">
+                            	<li><a href="${contentModel.twitter_s}"><i class="fa fa-twitter"></i></a></li></#if>
+                            <#if contentModel.linkedin_s?? && contentModel.linkedin_s != "">
+                            	<li><a href="${contentModel.linkedin_s}"><i class="fa fa-linkedin"></i></a></li></#if>
+                            <#if contentModel.google_plus_s?? && contentModel.google_plus_s != "">
+                            	<li><a href="${contentModel.google_plus_s}"><i class="fa fa-google-plus"></i></a></li></#if>
                         </ul>
 
                     </div><!-- End off widget item -->

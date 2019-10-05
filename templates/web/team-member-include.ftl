@@ -61,17 +61,17 @@
                           <div class="team_socail">
                               <h5>${memberModel.socialMediaTitle_t!""}</h5>
                               <ul class="list-inline m-top-20">
-                                  <#if  memberModel.facebook?? && memberModel.facebook != "">
-                                  	<li><a href="${memberModel.facebook}"><i class="fa fa-facebook"></i></a></li>
+                                  <#if  memberModel.facebook_s?? && memberModel.facebook_s != "">
+                                  	<li><a href="${memberModel.facebook_s}"><i class="fa fa-facebook"></i></a></li>
                                   </#if>
-                                  <#if  memberModel.twitter?? && memberModel.twitter != "">
-                                  	<li><a href="${memberModel.twitter}"><i class="fa fa-twitter"></i></a></li>
+                                  <#if  memberModel.twitter_s?? && memberModel.twitter_s != "">
+                                  	<li><a href="${memberModel.twitter_s}"><i class="fa fa-twitter"></i></a></li>
                                   </#if>
-                                  <#if memberModel.linkedin?? &&  memberModel.linkedin != "">
-                                  	<li><a href="${memberModel.linkedin}"><i class="fa fa-linkedin"></i></a></li>
+                                  <#if memberModel.linkedin_s?? &&  memberModel.linkedin_s != "">
+                                  	<li><a href="${memberModel.linkedin_s}"><i class="fa fa-linkedin"></i></a></li>
                                   </#if>
-                                  <#if memberModel.google_plus?? && memberModel.google_plus != "">
-                                  	<li><a href="${memberModel.google_plus}"><i class="fa fa-google-plus"></i></a></li>
+                                  <#if memberModel.google_plus_s?? && memberModel.google_plus_s != "">
+                                  	<li><a href="${memberModel.google_plus_s}"><i class="fa fa-google-plus"></i></a></li>
                                   </#if>
                                   <#if memberModel.behance?? && memberModel.behance != "">
                                   	<li><a href="${memberModel.behance}"><i class="fa fa-behance"></i></a></li>

@@ -531,7 +531,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>facebook</id>
+               <id>facebook_s</id>
                <iceId>teamMemberICE</iceId>
                <title>Facebook</title>
                <description/>
@@ -574,7 +574,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>twitter</id>
+               <id>twitter_s</id>
                <iceId/>
                <title>Twitter</title>
                <description/>
@@ -617,7 +617,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>linkedin</id>
+               <id>linkedin_s</id>
                <iceId/>
                <title>Linkedin</title>
                <description/>
@@ -660,7 +660,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>google_plus</id>
+               <id>google_plus_s</id>
                <iceId/>
                <title>Google Plus</title>
                <description/>

@@ -22,13 +22,13 @@
 	<famousQuote_t>As engineers, we were going to be in a position to change the world - not just study it.</famousQuote_t>
 	<famousQuoteAuthor_t>Henry Petroski Read</famousQuoteAuthor_t>
 	<socialMediaTitle_t>Contact Me</socialMediaTitle_t>
-	<facebook>https://www.facebook.com</facebook>
+	<facebook_s>https://www.facebook.com</facebook_s>
 	<picture_s>/static-assets/images/member-4s.jpeg</picture_s>
 	<createdDate>2017-5-30T17:8:33.000Z</createdDate>
 	<createdDate_dt>2017-5-30T17:8:33.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-30T17:55:10.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-30T17:55:10.000Z</lastModifiedDate_dt>
-	<twitter>https://twitter.com</twitter>
-	<linkedin>https://www.linkedin.com</linkedin>
-	<google_plus>https://plus.google.com/</google_plus>
+	<twitter_s>https://twitter.com</twitter_s>
+	<linkedin_s>https://www.linkedin.com</linkedin_s>
+	<google_plus_s>https://plus.google.com/</google_plus_s>
 </component>

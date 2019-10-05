@@ -25,10 +25,10 @@
 	<picture_s>/static-assets/images/member-1s.jpeg</picture_s>
 	<fullName_t>Sonic</fullName_t>
 	<socialMediaTitle_t>Get In Touch</socialMediaTitle_t>
-	<facebook>https://www.facebook.com/</facebook>
+	<facebook_s>https://www.facebook.com/</facebook_s>
 	<famousQuote_t>I don't divide architecture, landscape and gardening; to me they are one.</famousQuote_t>
 	<famousQuoteAuthor_t>Luis Barragan</famousQuoteAuthor_t>
-	<twitter>https://twitter.com</twitter>
-	<linkedin>https://www.linkedin.com</linkedin>
-	<google_plus>https://plus.google.com/</google_plus>
+	<twitter_s>https://twitter.com</twitter_s>
+	<linkedin_s>https://www.linkedin.com</linkedin_s>
+	<google_plus_s>https://plus.google.com/</google_plus_s>
 </component>

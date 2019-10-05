@@ -20,7 +20,7 @@
 	<famousQuote_t>If you want to be happy for a lifetime, be a gardener</famousQuote_t>
 	<famousQuoteAuthor_t>Chinese Proverb</famousQuoteAuthor_t>
 	<socialMediaTitle_t>Find me in</socialMediaTitle_t>
-	<facebook> https://www.facebook.com</facebook>
+	<facebook_s> https://www.facebook.com</facebook_s>
 	<file-name>member2.xml</file-name>
 	<folder-name/>
 	<picture_s>/static-assets/images/member-2s.jpeg</picture_s>
@@ -28,7 +28,7 @@
 	<createdDate_dt>2017-5-4T15:56:0.000Z</createdDate_dt>
 	<lastModifiedDate>2017-6-8T15:27:38.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-6-8T15:27:38.000Z</lastModifiedDate_dt>
-	<twitter>https://twitter.com</twitter>
-	<linkedin>https://www.linkedin.com</linkedin>
-	<google_plus>https://plus.google.com/</google_plus>
+	<twitter_s>https://twitter.com</twitter_s>
+	<linkedin_s>https://www.linkedin.com</linkedin_s>
+	<google_plus_s>https://plus.google.com/</google_plus_s>
 </component>
