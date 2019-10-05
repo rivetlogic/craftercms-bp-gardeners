@@ -289,7 +289,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>skills</id>
+               <id>skills_o</id>
                <iceId>teamMemberICE</iceId>
                <title>Skills</title>
                <description/>

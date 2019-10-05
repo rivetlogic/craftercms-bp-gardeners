@@ -4,7 +4,7 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>277d</objectGroupId>
 	<objectId>277d97bb-990d-4631-1616-7167c61e5b36</objectId>
-	<skills>	<item>	<skillName>Set the best team for your needs</skillName>
+	<skills_o>	<item>	<skillName>Set the best team for your needs</skillName>
 	<skillLevel>95%</skillLevel>
 	</item>	<item>	<skillName>Foster punctuality and quality</skillName>
 	<skillLevel>95%</skillLevel>
@@ -12,7 +12,7 @@
 	<skillLevel>95%</skillLevel>
 	</item>	<item>	<skillName>Get your absolute satisfaction</skillName>
 	<skillLevel>100%</skillLevel>
-	</item></skills>
+	</item></skills_o>
 	<file-name>member3.xml</file-name>
 	<folder-name/>
 	<internal-name>Member3</internal-name>

@@ -13,15 +13,15 @@
                             <p>${memberModel.jobTitle_t}</p>
                         </div>
   
-                        <#if memberModel.skills?? && memberModel.skills.item??>
+                        <#if memberModel.skills_o?? && memberModel.skills_o.item??>
                         
                           <div class="team_skill_title fix m-top-40 m-bottom-40 skill-fix">
-                              <h5>${memberModel.skillsTitle_t}</h5>
+                              <h5>${memberModel.skills_oTitle_t}</h5>
                           </div>
     
                           <div class="skill_bar sm-m-top-50 m-top-20">
                                                     
-                            <#list memberModel.skills.item as anSkill>
+                            <#list memberModel.skills_o.item as anSkill>
                               <#assign topmargin = "50" />
                               <#if anSkill?is_first >
                                 <#assign topmargin = "20" />

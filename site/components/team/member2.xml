@@ -4,7 +4,7 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>3d3a</objectGroupId>
 	<objectId>3d3a6ddb-9bf0-7cd2-cc36-1f241cd6a10d</objectId>
-	<skills>	<item>	<skillName>Soil knowledge</skillName>
+	<skills_o>	<item>	<skillName>Soil knowledge</skillName>
 	<skillLevel>100%</skillLevel>
 	</item>	<item>	<skillName>Sustainability strategy</skillName>
 	<skillLevel>95%</skillLevel>
@@ -12,7 +12,7 @@
 	<skillLevel>90%</skillLevel>
 	</item>	<item>	<skillName>Plant knowledge</skillName>
 	<skillLevel>100%</skillLevel>
-	</item></skills>
+	</item></skills_o>
 	<internal-name>Member2</internal-name>
 	<fullName_t>Roger Rabbit</fullName_t>
 	<jobTitle_t>Gardener</jobTitle_t>

@@ -4,7 +4,7 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>85b6</objectGroupId>
 	<objectId>85b66afb-3bc5-8f73-e736-839abaca3f06</objectId>
-	<skills>	<item>	<skillName>Analytical skills</skillName>
+	<skills_o>	<item>	<skillName>Analytical skills</skillName>
 	<skillLevel>100%</skillLevel>
 	</item>	<item>	<skillName>Good problem-solving</skillName>
 	<skillLevel>95%</skillLevel>
@@ -12,7 +12,7 @@
 	<skillLevel>100%</skillLevel>
 	</item>	<item>	<skillName>Knowledge in building materials</skillName>
 	<skillLevel>95%</skillLevel>
-	</item></skills>
+	</item></skills_o>
 	<file-name>member4.xml</file-name>
 	<folder-name/>
 	<internal-name>Member4</internal-name>
