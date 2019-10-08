@@ -19,27 +19,33 @@ plugin:
     Gardeners is a single page Crafter 3 blueprint with several information display section and great managament of images and background video
   website:
     name: "Crafter CMS Blueprint: Gardeners"
-media:
-  screenshots:
-    - title: Home Page
-      description: Screenshot of the home page
-      url: ""
-developer:
-  company:
-    name: Rivet Logic
-    email: support@rivetlogic.com
-    url: https://rivetlogic.com
-build:
-  id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
-  date: 2019-01-23T00:00:00Z
-license:
-  name: MIT
-  url: https://opensource.org/licenses/MIT
-crafterCmsVersions:
-  - major: 3
-    minor: 1
-    patch: 1
-crafterCmsEditions:
-  - community
-  - enterprise
-searchEngine: Elasticsearch
+  media:
+    screenshots:
+      - title: Home Section
+        description: Screenshot of the home section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-gardeners/master/static-assets/images/screenshots/bp_gardeners_home.png"
+      - title: Business/Work Section
+        description: Screenshot of the business and work sections
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-gardeners/master/static-assets/images/screenshots/bp_gardeners_business_work.png"
+      - title: Gallery Section
+        description: Screenshot of the gallery section
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-gardeners/master/static-assets/images/screenshots/bp_gardeners_gallery.png"
+  developer:
+    company:
+      name: Rivet Logic
+      email: support@rivetlogic.com
+      url: https://rivetlogic.com
+  build:
+    id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
+    date: 2019-01-23T00:00:00Z
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 3
+      minor: 1
+      patch: 4
+  crafterCmsEditions:
+    - community
+    - enterprise
+  searchEngine: Elasticsearch
