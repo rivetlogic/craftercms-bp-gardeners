@@ -6,8 +6,8 @@ descriptorVersion: 2
 # Describe the plugin
 plugin:
   type: blueprint
-  id: org.craftercms.blueprint.gardeners
-  name: "Crafter CMS Blueprint: Gardeners"
+  id: com.rivetlogic.craftercms.blueprint.gardeners
+  name: "Gardeners"
   tags:
     - blueprint
     - gardeners
@@ -18,7 +18,8 @@ plugin:
   description: |
     Gardeners is a single page Crafter 3 blueprint with several information display section and great managament of images and background video
   website:
-    name: "Crafter CMS Blueprint: Gardeners"
+    name: "Gardeners"
+    url: https://github.com/rivetlogic/craftercms-bp-gardeners.git
   media:
     screenshots:
       - title: Home Section
@@ -33,7 +34,7 @@ plugin:
   developer:
     company:
       name: Rivet Logic
-      email: support@rivetlogic.com
+      email: info@rivetlogic.com
       url: https://rivetlogic.com
   build:
     id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
