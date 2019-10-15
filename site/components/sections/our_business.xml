@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/action-card</content-type>	<display-template>/templates/web/action-card.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0b8f</objectGroupId>
+	<objectId>0b8f4167-3bdc-434a-533e-dec6e278e644</objectId>
+	<actionCardButtons_o>	<item>	<label_t>Contact Us</label_t>
+	<buttonURL_s>#contact</buttonURL_s>
+	<buttonType_s>btn-primary</buttonType_s>
+	</item></actionCardButtons_o>
+	<file-name>our_business.xml</file-name>
+	<folder-name/>
+	<internal-name>Our Business</internal-name>
+	<navigationLabel_t>Our Business</navigationLabel_t>
+	<includeNavBar_b>true</includeNavBar_b>
+	<actionCardBackgroundImage_s>/static-assets/images/blue-drop-of-water-bg.jpg</actionCardBackgroundImage_s>
+	<actionCardForegroundImage_s>/static-assets/images/image-businnes-fg.jpeg</actionCardForegroundImage_s>
+	<actionCardText_html>&lt;h2 class="text-uppercase text-white"&gt;&lt;strong&gt;We&lt;/strong&gt; understand you&lt;/h2&gt;
+&lt;p class="m-top-20 text-white"&gt;We mastering latest sustainable techniques to design and build a beautiful garden according to your budget, time and dedication. We also assist you to use the latest tech gadgets to make the maintenance of you own paradise an easy and fun task to do. With us you will have the garden...&lt;/p&gt;
+&lt;ul class="text-white"&gt;
+&lt;li&gt;&lt;i class="fa fa-arrow-circle-right"&gt;&lt;/i&gt; You always dreamed about&lt;/li&gt;
+&lt;li&gt;&lt;i class="fa  fa-arrow-circle-right"&gt;&lt;/i&gt; You will able to preserve and maintain from now on&lt;/li&gt;
+&lt;/ul&gt;</actionCardText_html>
+	<createdDate>2017-5-29T23:3:1.000Z</createdDate>
+	<createdDate_dt>2017-5-29T23:3:1.000Z</createdDate_dt>
+	<lastModifiedDate>2017-7-10T20:16:44.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-7-10T20:16:44.000Z</lastModifiedDate_dt>
+</component>

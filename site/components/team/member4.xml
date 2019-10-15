@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/team-member</content-type>	<display-template>/templates/web/team-member.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>85b6</objectGroupId>
+	<objectId>85b66afb-3bc5-8f73-e736-839abaca3f06</objectId>
+	<skills_o>	<item>	<skillName_t>Analytical skills</skillName_t>
+	<skillLevel_s>100%</skillLevel_s>
+	</item>	<item>	<skillName_t>Good problem-solving</skillName_t>
+	<skillLevel_s>95%</skillLevel_s>
+	</item>	<item>	<skillName_t>Pay close attention to detail</skillName_t>
+	<skillLevel_s>100%</skillLevel_s>
+	</item>	<item>	<skillName_t>Knowledge in building materials</skillName_t>
+	<skillLevel_s>95%</skillLevel_s>
+	</item></skills_o>
+	<file-name>member4.xml</file-name>
+	<folder-name/>
+	<internal-name>Member4</internal-name>
+	<fullName_t>Itsy Bitsy</fullName_t>
+	<jobTitle_t>Structural Engineering</jobTitle_t>
+	<skillsTitle_t>My Strengths</skillsTitle_t>
+	<famousQuote_t>As engineers, we were going to be in a position to change the world - not just study it.</famousQuote_t>
+	<famousQuoteAuthor_t>Henry Petroski Read</famousQuoteAuthor_t>
+	<socialMediaTitle_t>Contact Me</socialMediaTitle_t>
+	<facebook_s>https://www.facebook.com</facebook_s>
+	<picture_s>/static-assets/images/member-4s.jpeg</picture_s>
+	<createdDate>2017-5-30T17:8:33.000Z</createdDate>
+	<createdDate_dt>2017-5-30T17:8:33.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-30T17:55:10.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-30T17:55:10.000Z</lastModifiedDate_dt>
+	<twitter_s>https://twitter.com</twitter_s>
+	<linkedin_s>https://www.linkedin.com</linkedin_s>
+	<google_plus_s>https://plus.google.com/</google_plus_s>
+</component>

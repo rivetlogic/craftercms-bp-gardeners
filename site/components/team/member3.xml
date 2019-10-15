@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/team-member</content-type>	<display-template>/templates/web/team-member.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>277d</objectGroupId>
+	<objectId>277d97bb-990d-4631-1616-7167c61e5b36</objectId>
+	<skills_o>	<item>	<skillName_t>Set the best team for your needs</skillName_t>
+	<skillLevel_s>95%</skillLevel_s>
+	</item>	<item>	<skillName_t>Foster punctuality and quality</skillName_t>
+	<skillLevel_s>95%</skillLevel_s>
+	</item>	<item>	<skillName_t>Convey any event in our work plan</skillName_t>
+	<skillLevel_s>95%</skillLevel_s>
+	</item>	<item>	<skillName_t>Get your absolute satisfaction</skillName_t>
+	<skillLevel_s>100%</skillLevel_s>
+	</item></skills_o>
+	<file-name>member3.xml</file-name>
+	<folder-name/>
+	<internal-name>Member3</internal-name>
+	<fullName_t>Tom Cat</fullName_t>
+	<jobTitle_t>Team Leader</jobTitle_t>
+	<skillsTitle_t>These are my commitments</skillsTitle_t>
+	<famousQuote_t>Unless you have 100% customer satisfaction, you must improve.</famousQuote_t>
+	<famousQuoteAuthor_t>Horst Schulz</famousQuoteAuthor_t>
+	<socialMediaTitle_t>You Can Find Me</socialMediaTitle_t>
+	<facebook_s> https://www.facebook.com</facebook_s>
+	<picture_s>/static-assets/images/member-3s.jpeg</picture_s>
+	<createdDate>2017-5-30T16:5:34.000Z</createdDate>
+	<createdDate_dt>2017-5-30T16:5:34.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-30T18:6:33.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-30T18:6:33.000Z</lastModifiedDate_dt>
+	<twitter_s>https://twitter.com</twitter_s>
+	<linkedin_s>https://www.linkedin.com</linkedin_s>
+	<google_plus_s>https://plus.google.com/</google_plus_s>
+</component>

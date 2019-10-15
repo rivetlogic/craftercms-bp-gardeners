@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/portfolio</content-type>	<display-template>/templates/web/portfolio.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2586</objectGroupId>
+	<objectId>2586f11d-4078-fc2e-9574-01ccf0976f85</objectId>
+	<file-name>portfolio.xml</file-name>
+	<folder-name/>
+	<internal-name>Portfolio</internal-name>
+	<createdDate>2017-4-27T23:54:54.000Z</createdDate>
+	<createdDate_dt>2017-4-27T23:54:54.000Z</createdDate_dt>
+	<lastModifiedDate>2017-6-30T16:5:41.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-6-30T16:5:41.000Z</lastModifiedDate_dt>
+	<title_t>Our Works</title_t>
+	<description_t>Checkout these amazing works we have done!</description_t>
+	<portfolioItems>	<item>	<key>/site/components/portfolio/product1.xml</key>
+	<value>Product1</value>
+	<include>/site/components/portfolio/product1.xml</include>
+	<disableFlattening>false</disableFlattening>
+	<title_t>Magical Path</title_t>
+	<shortDescription_t>Located in Oklahoma</shortDescription_t>
+	<link/>
+	<image_s>/static-assets/images/work1s.jpeg</image_s>
+	</item>	<item>	<key>/site/components/portfolio/product2.xml</key>
+	<value>Product2</value>
+	<include>/site/components/portfolio/product2.xml</include>
+	<disableFlattening>false</disableFlattening>
+	<title_t>Tiny House Garden</title_t>
+	<shortDescription_t>In Boston Massachusetts</shortDescription_t>
+	<link/>
+	<image_s>/static-assets/images/work2s.jpeg</image_s>
+	</item>	<item>	<title_t>Hobbit Home</title_t>
+	<shortDescription_t>Magin in Quebec, Canada</shortDescription_t>
+	<image_s>/static-assets/images/work3s.jpeg</image_s>
+	<link/>
+	</item>	<item>	<title_t>Lovely Patio</title_t>
+	<shortDescription_t>Los Angeles, California</shortDescription_t>
+	<image_s>/static-assets/images/work4s.jpeg</image_s>
+	<link/>
+	</item>	<item>	<title_t>Babylon tower</title_t>
+	<shortDescription_t>Singapore</shortDescription_t>
+	<image_s>/static-assets/images/work5s.jpeg</image_s>
+	<link/>
+	</item>	<item>	<title_t>Zen garden</title_t>
+	<shortDescription_t>San Francisco, California</shortDescription_t>
+	<image_s>/static-assets/images/work7s.jpeg</image_s>
+	<link/>
+	</item>	<item>	<title_t>Zephyr Palace</title_t>
+	<shortDescription_t>Costa Rica</shortDescription_t>
+	<image_s>/static-assets/images/work8s.jpeg</image_s>
+	<link/>
+	</item></portfolioItems>
+	<navigationLabel_t>Our Work</navigationLabel_t>
+	<includeNavBar_b>true</includeNavBar_b>
+</component>

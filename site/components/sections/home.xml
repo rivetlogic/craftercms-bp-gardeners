@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/cover</content-type>	<display-template>/templates/web/cover.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>38da</objectGroupId>
+	<objectId>38dadf4b-0209-7a38-7872-0c66ae3d230c</objectId>
+	<file-name>home.xml</file-name>
+	<folder-name/>
+	<internal-name>Welcome</internal-name>
+	<createdDate>2017-4-27T23:34:14.000Z</createdDate>
+	<createdDate_dt>2017-4-27T23:34:14.000Z</createdDate_dt>
+	<lastModifiedDate>2017-7-10T20:12:11.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-7-10T20:12:11.000Z</lastModifiedDate_dt>
+	<frontImage_s>/static-assets/images//welcome.jpg</frontImage_s>
+	<introductoryText_html>&lt;h2 class="text-white"&gt;Welcome to &lt;strong&gt;Our Garden&lt;/strong&gt;&lt;/h2&gt;
+&lt;h1 class="text-white"&gt;We Make Your Dreamed Garden True&lt;/h1&gt;
+&lt;h3 class="text-white"&gt;The &lt;strong&gt;Beauty of Nature&lt;/strong&gt; inspire us&lt;/h3&gt;</introductoryText_html>
+	<coverButtons_o>	<item>	<key>/site/components/buttons/buy_now.xml</key>
+	<value>Buy Now</value>
+	<include>/site/components/buttons/buy_now.xml</include>
+	<disableFlattening>false</disableFlattening>
+	<label_t>Visit Us</label_t>
+	<buttonType_s>btn-primary</buttonType_s>
+	<targetPage>		<item><key>/site/website/products/index.xml</key>
+<value>Products</value>
+<include>/site/website/products/index.xml</include>
+<disableFlattening>false</disableFlattening>
+		</item></targetPage>
+	<buttonURL_s>#About</buttonURL_s>
+	</item>	<item>	<label_t>See Our Magic</label_t>
+	<buttonType_s>btn-default</buttonType_s>
+	<targetPage>		<item><key>/site/website/products/index.xml</key>
+<value>Products</value>
+<include>/site/website/products/index.xml</include>
+<disableFlattening>false</disableFlattening>
+		</item></targetPage>
+	<buttonURL_s>#Portfolio</buttonURL_s>
+	</item></coverButtons_o>
+	<backgroundImage_s>/static-assets/images//bg-image.jpg</backgroundImage_s>
+	<backgroundVideo_s>/static-assets/videos/704308068.mp4</backgroundVideo_s>
+	<navigationLabel_t>Home</navigationLabel_t>
+	<includeNavBar_b>true</includeNavBar_b>
+</component>
