@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1137</objectGroupId>
+	<objectId>1137d4b5-8dd6-6408-cced-27eb778d9ee4</objectId>
+	<items item-list="true">	<item>	<key>btn-primary</key>
+	<value>Primary</value>
+	</item>	<item>	<key>btn-default</key>
+	<value>Default</value>
+	</item></items>
+	<file-name>button-types.xml</file-name>
+	<folder-name/>
+	<internal-name>Button Types</internal-name>
+	<createdDate>2019-10-22T21:36:28.341Z</createdDate>
+	<createdDate_dt>2019-10-22T21:36:28.341Z</createdDate_dt>
+	<lastModifiedDate>2019-10-22T21:36:28.341Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-22T21:36:28.341Z</lastModifiedDate_dt>
+</component>

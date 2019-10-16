@@ -305,7 +305,7 @@
    </sections>
    <datasources>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>member</id>
          <title>Member</title>
          <interface>item</interface>
