@@ -70,6 +70,16 @@
                                 </modulehook>
 
                                 <modulehook>
+                                    <name>wcm-root-folder</name>
+                                    <showDivider>true</showDivider>
+                                    <params>
+                                        <label>Taxonomies</label>
+                                        <path>/site/taxonomy</path>
+                                        <showRootItem>true</showRootItem>
+                                    </params>
+                                </modulehook>
+
+                                <modulehook>
                                     <name>wcm-assets-folder</name>
                                     <showDivider>true</showDivider>
                                     <params>

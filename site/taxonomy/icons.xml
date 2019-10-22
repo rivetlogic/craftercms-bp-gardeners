@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0626</objectGroupId>
+	<objectId>0626e638-4082-109f-a81f-d0567e5ca8b0</objectId>
+	<items item-list="true">	<item>	<key>icon-nature-1</key>
+	<value>Nature 1</value>
+	</item>	<item>	<key>icon-nature-3</key>
+	<value>Nature 3</value>
+	</item>	<item>	<key>icon-earth</key>
+	<value>Earth</value>
+	</item>	<item>	<key>icon-shapes</key>
+	<value>Shapes</value>
+	</item></items>
+	<file-name>icons.xml</file-name>
+	<folder-name/>
+	<internal-name>Icons</internal-name>
+	<createdDate>2019-10-22T21:33:12.068Z</createdDate>
+	<createdDate_dt>2019-10-22T21:33:12.068Z</createdDate_dt>
+	<lastModifiedDate>2019-10-22T21:33:12.068Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-22T21:33:12.068Z</lastModifiedDate_dt>
+</component>
