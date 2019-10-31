@@ -263,7 +263,7 @@
 					</constraints>
 				</field>
 				<field>
-					<type>rte</type>
+					<type>rte-tinymce5</type>
 					<id>actionCardText_html</id>
 					<iceId>actionCardText</iceId>
 					<title>Text</title>

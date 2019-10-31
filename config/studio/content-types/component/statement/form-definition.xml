@@ -167,7 +167,7 @@
          <defaultOpen>true</defaultOpen>
          <fields>
             <field>
-               <type>rte</type>
+               <type>rte-tinymce5</type>
                <id>rteText_html</id>
                <iceId>statementText</iceId>
                <title>Text</title>

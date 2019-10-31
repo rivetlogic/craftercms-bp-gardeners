@@ -168,7 +168,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte</type>
+               <type>rte-tinymce5</type>
                <id>contactUs_html</id>
                <iceId>contactUsDesc</iceId>
                <title>Contact Us</title>
