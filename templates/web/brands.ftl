@@ -1,7 +1,7 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio/>
+<#import "/templates/system/common/ice.ftl" as studio />
 
 <!--Brand Section-->
-<section id="brand" class="brand fix roomy-80" <@studio.componentAttr path=contentModel.storeUrl />>
+<@studio.componentRootTag $tag="section" id="brand" class="brand fix roomy-80">
   <#if contentModel.sectionTitle?? >
     <span class="scrollIndicatorTitle">
       ${contentModel.sectionTitle}
@@ -12,22 +12,25 @@
     <div class="row">
       <div class="main_brand text-center">
 
-        <#list contentModel.brandsSet.item as aBrand>
+        <@studio.renderRepeatCollection
+          $field="brandsSet";
+          <#-- Nested content values passed down by the macro: -->
+          item, index
+        >
           <div class="col-sm-3 col-xs-6">
             <div class="brand_item">
-              <#if (aBrand.brandURL?length > 0 ) >
-                <a href="${aBrand.brandURL}">
+              <#if (item.brandURL?length > 0 ) >
+                <a href="${item.brandURL}">
               </#if>
-                <img src="${aBrand.brandImage!""}" class="brand_image" alt="" />
-              <#if (aBrand.brandURL?length > 0 ) >
+                <@studio.img $field="brandsSet.brandImage" src=(item.brandImage!"") alt="" $index=index />
+              <#if (item.brandURL?length > 0 ) >
                 </a>
               </#if>
             </div>
           </div>
-        </#list>
-
+        </@studio.renderRepeatCollection>
       </div>
     </div>
   </div>
-</section>
+</@studio.componentRootTag>
 <!-- End off Brand section -->
