@@ -35,7 +35,7 @@
                   <div class="col-sm-4">
                     <div class="port_item xs-m-top-30">
                       <div class="port_img">
-                        <img src="${item.image_s!""}" alt="" />
+                        <@studio.img $field="portfolioItems.image_s" src=(item.image_s) alt="" $index=index />
                         <div class="port_overlay text-center">
                           <#if item.link_s?? &&  item.link_s != "">
                             <a href="${item.link_s!""}">&uarr;</a>
@@ -47,8 +47,12 @@
                         </div>
                       </div>
                       <div class="port_caption m-top-20">
-                        <h5>${item.title_t!""}</h5>
-                        <h6>${item.shortDescription_t!""}</h6>
+                        <@studio.h5 $field="portfolioItems.title_t" $index=index>
+                          ${item.title_t!""}
+                        </@studio.h5>
+                        <@studio.h6 $field="portfolioItems.shortDescription_t" $index=index>
+                          ${item.shortDescription_t!""}
+                        </@studio.h6>
                       </div>
                     </div>
                   </div>
