@@ -34,7 +34,7 @@
                       ${item.label_t!""}
                     </@studio.span>
                   </a>
-                </@studio.renderRepeatCollection>`
+                </@studio.renderRepeatCollection>
               </#if>
             </div>
           </div>
