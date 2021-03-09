@@ -53,8 +53,8 @@
   <#include "/templates/web/page-home-header.ftl" />
 
   <!-- Sections -->
-  <div <@studio.iceAttr iceGroup="sections"/> >
-    <div class="sections" <@studio.componentContainerAttr target="sections_o" objectId=model.objectId/>>
+  <div>
+    <div class="sections">
       <#list (contentModel.sections_o.item)![] as aSection >
         <#assign sectionItem =  siteItemService.getSiteItem(aSection.key) />
         <div id='${sectionItem["internal-name"]?replace(" ", "_")}'>
