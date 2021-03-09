@@ -49,20 +49,18 @@
                   ${contentModel.introductoryText_html!""}
                 </@studio.tag>
 
-                <@studio.renderRepeatCollection
-                  $field="coverButtons_o"
-                  $containerTag="div"
-                  $containerAttributes={'class': 'home_btns m-top-40'}
-                  $itemTag="span";
-                  <#-- Nested content values passed down by the macro: -->
-                  item, index
-                >
-                  <a href="${item.buttonURL_s!"#"}" class="btn ${item.buttonType_s!""} m-top-20">
-                    <@studio.span $field="coverButtons_o.label_t" $index=index>
-                      ${item.label_t!""}
-                    </@studio.span>
-                  </a>
-                </@studio.renderRepeatCollection>
+                <@studio.tag $field="coverButtons_o" class="home_btns m-top-40">
+                  <#if contentModel.coverButtons_o?? && contentModel.coverButtons_o.item??>
+                    <#list contentModel.coverButtons_o.item as item>
+                      <#assign index = item?index>
+                      <a href="${item.buttonURL_s!"#"}" class="btn ${item.buttonType_s!""} m-top-20">
+                        <@studio.span $field="coverButtons_o.label_t" $index=index>
+                            ${item.label_t!""}
+                        </@studio.span>
+                      </a>
+                    </#list>
+                  </#if>
+                </@studio.tag>
               </div>
             </div><!-- End off slid item -->
           </div>
