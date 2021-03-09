@@ -1,4 +1,4 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio/>
+<#import "/templates/system/common/ice.ftl" as studio />
 
 <#assign bgStyle="" />
 <#if contentModel.backgroundImage_s?? && !contentModel.backgroundVideo_s??>
@@ -13,21 +13,16 @@
 </#if>
 
 <!--Cover Section-->
-<section
-  <@studio.componentAttr path=contentModel.storeUrl />
-  id="home"
-  class="home bg-black fix ${bgVideoClass}" ${bgStyle}
->
+<@studio.componentRootTag $tag="section" id="home" class="home bg-black fix ${bgVideoClass}">
   <#if contentModel.sectionTitle?? >
-    <span class="scrollIndicatorTitle">
+    <@studio.span $field="sectionTitle" class="scrollIndicatorTitle">
       ${contentModel.sectionTitle}
-    </span>
+    </@studio.span>
   </#if>
 
   <#if contentModel.backgroundVideo_s?? && (contentModel.backgroundVideo_s?length>0) >
 
     <video
-      <@studio.iceAttr iceGroup="coverBackgroundVideo" path=contentModel.storeUrl label="Cover Background Video"/>
       loop muted autoplay id="cover_video_spbb" ${bgVideoPoster} preload="metadata"  height="925" playsinline
     >
       <source src="${contentModel.backgroundVideo_s}" type="video/mp4">
@@ -45,23 +40,29 @@
           <div class="hello_slid">
             <div class="slid_item xs-text-center">
               <#if contentModel.frontImage_s??>
-                <div class="col-sm-4" <@studio.iceAttr iceGroup="coverFrontImage" path=contentModel.storeUrl label="Cover Front Image"/>>
-                  <img src="${contentModel.frontImage_s!""}" alt="" />
+                <div class="col-sm-4">
+                  <@studio.img $field="frontImage_s" src=(contentModel.frontImage_s!"") alt=""/>
                 </div>
               </#if>
               <div class="col-sm-8">
-                <div class="home_text xs-m-top-30" <@studio.iceAttr iceGroup="coverIntroductoryText" path=contentModel.storeUrl label="Cover Introductory Text"/>>
+                <@studio.tag $field="introductoryText_html" class="home_text xs-m-top-30">
                   ${contentModel.introductoryText_html!""}
-                </div>
-                <div class="home_btns m-top-40" <@studio.iceAttr iceGroup="coverButtons" path=contentModel.storeUrl label="Cover Buttons"/>>
-                  <#if contentModel.coverButtons_o?? && contentModel.coverButtons_o.item??>
-                    <#list contentModel.coverButtons_o.item as aButton>
-                      <a href="${aButton.buttonURL_s!"#"}" class="btn ${aButton.buttonType_s!""} m-top-20">
-                        ${aButton.label_t!""}
-                      </a>
-                    </#list>
-                  </#if>
-                </div>
+                </@studio.tag>
+
+                <@studio.renderRepeatCollection
+                  $field="coverButtons_o"
+                  $containerTag="div"
+                  $containerAttributes={'class': 'home_btns m-top-40'}
+                  $itemTag="span";
+                  <#-- Nested content values passed down by the macro: -->
+                  item, index
+                >
+                  <a href="${item.buttonURL_s!"#"}" class="btn ${item.buttonType_s!""} m-top-20">
+                    <@studio.span $field="coverButtons_o.label_t" $index=index>
+                      ${item.label_t!""}
+                    </@studio.span>
+                  </a>
+                </@studio.renderRepeatCollection>
               </div>
             </div><!-- End off slid item -->
           </div>
@@ -69,8 +70,5 @@
       </div>
     </div><!--End off row-->
   </div><!--End off container -->
-</section>
+</@studio.componentRootTag>
 <!--End off Cover Section-->
-
-<!-- Edit Image -->
-<div <@studio.iceAttr iceGroup="coverBackgroundImage" path=contentModel.storeUrl label="Cover Background Image"/> ></div>
