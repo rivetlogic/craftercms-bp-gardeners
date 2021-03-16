@@ -1,7 +1,7 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
 <!--Featured Section-->
-<@studio.componentRootTag $tag="section" id="features" class="features bg-grey">
+<section id="features" class="features bg-grey">
   <div class="container">
     <div class="row">
       <div class="main_features fix roomy-80 roomy-80-s">
@@ -40,20 +40,11 @@
                 </div>
               </div>
             </@studio.renderRepeatCollection>
-
-
-<#--              <#list contentModel.features.item as aFeature>-->
-
-<#--                <div class="col-md-6">-->
-
-<#--                </div>-->
-
-<#--              </#list>-->
           </#if>
 
       </div>
     </div><!-- End off row -->
 
   </div><!-- End off container -->
-</@studio.componentRootTag>
+</section>
 <!-- End off Featured Section-->

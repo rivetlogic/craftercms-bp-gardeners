@@ -1,7 +1,7 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
 <!--Team section-->
-<@studio.componentRootTag $tag="section" id="team" class="team bg-grey fix">
+<section id="team" class="team bg-grey fix">
   <div class="container">
     <div class="main_team roomy-80">
       <div class="head_title text-center fix">
@@ -30,27 +30,6 @@
         </ol>
 
         <!-- Wrapper for slides -->
-
-<#--        <@studio.renderRepeatCollection-->
-<#--          $field="teamMembers_o"-->
-<#--          $containerTag="div"-->
-<#--          $containerAttributes={'class': 'carousel-inner', 'role': 'listbox'}-->
-<#--          $itemTag="div";-->
-<#--          &lt;#&ndash; Nested content values passed down by the macro: &ndash;&gt;-->
-<#--          item, index-->
-<#--        >-->
-<#--          <#assign active = "" />-->
-<#--          <#if index == 0>-->
-<#--            <#assign active = "active" />-->
-<#--          </#if>-->
-
-<#--          <#assign memberItem = siteItemService.getSiteItem(item.key) />-->
-<#--          <#if memberItem??>-->
-<#--            <#assign memberModel = siteItemService.getSiteItem(memberItem.storeUrl) />-->
-<#--            <#include "/templates/web/team-member-include.ftl" />-->
-<#--          </#if>-->
-<#--        </@studio.renderRepeatCollection>-->
-
 
         <@studio.tag $field="teamMembers_o" class="carousel-inner" role="listbox">
           <#if contentModel.teamMembers_o?? && contentModel.teamMembers_o.item??>
@@ -87,5 +66,5 @@
       </div>
     </div><!-- End off main_team -->
   </div><!-- End off container -->
-</@studio.componentRootTag>
+</section>
 <!-- End off Team section -->

@@ -54,14 +54,15 @@
 
   <!-- Sections -->
   <div>
-    <div class="sections">
+    <@studio.tag $field="sections_o" class="sections">
       <#list (contentModel.sections_o.item)![] as aSection >
+        <#assign index = aSection?index />
         <#assign sectionItem =  siteItemService.getSiteItem(aSection.key) />
-        <div id='${sectionItem["internal-name"]?replace(" ", "_")}'>
-            <@renderComponent component=aSection />
-        </div>
+        <@studio.tag $field="sections_o" $index=index id='${sectionItem["internal-name"]?replace(" ", "_")}'>
+          <@renderComponent component=aSection />
+        </@studio.tag>
       </#list>
-    </div>
+    </@studio.tag>
   </div>
 
   <!-- Footer -->

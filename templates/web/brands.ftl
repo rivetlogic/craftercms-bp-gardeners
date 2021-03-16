@@ -1,7 +1,7 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
 <!--Brand Section-->
-<@studio.componentRootTag $tag="section" id="brand" class="brand fix roomy-80">
+<section id="brand" class="brand fix roomy-80">
   <#if contentModel.sectionTitle?? >
     <span class="scrollIndicatorTitle">
       ${contentModel.sectionTitle}
@@ -32,5 +32,5 @@
       </div>
     </div>
   </div>
-</@studio.componentRootTag>
+</section>
 <!-- End off Brand section -->

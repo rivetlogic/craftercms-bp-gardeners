@@ -1,7 +1,7 @@
 <#import "/templates/system/common/ice.ftl" as studio />
 
 <!--Call to action section-->
-<@studio.componentRootTag $tag="section" id="action" class="action bg-blue roomy-40">
+<section id="action" class="action bg-blue roomy-40">
   <#if contentModel.sectionTitle?? >
     <span class="scrollIndicatorTitle">${contentModel.sectionTitle}</span>
   </#if>
@@ -28,5 +28,5 @@
       </div>
     </div>
   </div>
-</@studio.componentRootTag>
+</section>
 <!--End Call to action section-->

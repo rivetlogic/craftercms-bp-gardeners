@@ -6,7 +6,7 @@
 </#if>
 
 <!--Business Section-->
-<@studio.componentRootTag $tag="section" id="business" class="business bg-blue roomy-70">
+<section id="business" class="business bg-blue roomy-70">
 
   <#if contentModel.sectionTitle?? >
     <span class="scrollIndicatorTitle">${contentModel.sectionTitle}</span>
@@ -51,5 +51,5 @@
       </div>
     </div>
   </div>
-</@studio.componentRootTag>
+</section>
 <!-- End off Business section -->

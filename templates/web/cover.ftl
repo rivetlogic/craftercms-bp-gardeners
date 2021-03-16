@@ -13,7 +13,7 @@
 </#if>
 
 <!--Cover Section-->
-<@studio.componentRootTag $tag="section" id="home" class="home bg-black fix ${bgVideoClass}">
+<section id="home" class="home bg-black fix ${bgVideoClass}">
   <#if contentModel.sectionTitle?? >
     <@studio.span $field="sectionTitle" class="scrollIndicatorTitle">
       ${contentModel.sectionTitle}
@@ -68,5 +68,5 @@
       </div>
     </div><!--End off row-->
   </div><!--End off container -->
-</@studio.componentRootTag>
+</section>
 <!--End off Cover Section-->
