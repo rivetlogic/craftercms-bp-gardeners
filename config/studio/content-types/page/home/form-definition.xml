@@ -258,7 +258,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/action-call,/component/action-card,/component/brands,/component/cover,/component/carousel,/component/features,/component/portfolio,/component/statement,/component/team,/component/team-member</value>
+							<value>/component/action-call,/component/action-card,/component/brands,/component/cover,/component/carousel,/component/features,/component/portfolio,/component/statement,/component/team</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
