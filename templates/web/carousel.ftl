@@ -1,4 +1,4 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio/>
+<#import "/templates/system/common/ice.ftl" as studio/>
 
 <!--Carousel section-->
 <#assign bgStyle="" />
@@ -6,7 +6,7 @@
   <#assign bgStyle="style='background-image: url(${contentModel.carouselBackground_s});'" />
 </#if>
 
-<@studio.componentRootTag $tag="section" id="test" class="test bg-black roomy-60 fix">
+<section id="test" class="test bg-black roomy-60 fix">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -15,7 +15,7 @@
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="head_title text-center fix">
             <@studio.h2 $field="title_t" class="text-uppercase text-white scrollIndicatorTitle">
-              ${contentModel.title_t!""}
+              ${contentModel.title_t!"asdasd"}
             </@studio.h2>
             <h5 class="text-white">${contentModel.description_t!""}</h5>
           </div>
@@ -51,7 +51,7 @@
               </#if>
           </div><!-- End off carosel inner -->
 
-            <#if contentModel.carouselItems_o?? && (contentModel.carouselItems_o.item?size > 1) >
+            <#if contentModel.carouselItems_o?? && contentModel.carouselItems_o.item?? && (contentModel.carouselItems_o.item?size > 1) >
 
               <!-- Controls -->
               <a class="left carousel-control" href="#testslid" role="button" data-slide="prev">
@@ -70,7 +70,7 @@
       </div>
     </div><!-- End off row -->
   </div><!-- End off container -->
-</@studio.componentRootTag>
+</section>
 <#--<section id="test" class="test bg-black roomy-60 fix" ${bgStyle} <@studio.componentAttr path=contentModel.storeUrl />>-->
 <#--</section>-->
 <!-- End off Carousel section -->
