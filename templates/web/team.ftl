@@ -54,15 +54,6 @@
           </#if>
         </@studio.tag>
 
-
-<#--        <div class="carousel-inner" role="listbox">-->
-<#--          <#if contentModel.teamMembers_o?? && contentModel.teamMembers_o.item??>-->
-<#--            <#list contentModel.teamMembers_o.item as aTeamMember>-->
-
-<#--            </#list>-->
-<#--          </#if>-->
-<#--        </div>-->
-
       </div>
     </div><!-- End off main_team -->
   </div><!-- End off container -->
