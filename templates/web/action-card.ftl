@@ -6,10 +6,7 @@
 </#if>
 
 <!--Business Section-->
-<section
-  id="business"
-  class="business bg-blue roomy-70" <@studio.componentAttr path=contentModel.storeUrl />  ${bgStyle}
->
+<section id="business" class="business bg-blue roomy-70" ${bgStyle}>
   <#if contentModel.sectionTitle?? >
     <span class="scrollIndicatorTitle">${contentModel.sectionTitle}</span>
   </#if>

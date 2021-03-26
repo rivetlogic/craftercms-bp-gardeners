@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio/>
 
 <!--Brand Section-->
-<section id="brand" class="brand fix roomy-80" <@studio.componentAttr path=contentModel.storeUrl />>
+<section id="brand" class="brand fix roomy-80">
   <#if contentModel.sectionTitle?? >
     <span class="scrollIndicatorTitle">
       ${contentModel.sectionTitle}

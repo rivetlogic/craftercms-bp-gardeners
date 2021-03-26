@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
 <!--Team section-->
-<section id="team" class="team bg-grey fix" <@studio.componentAttr path=contentModel.storeUrl />>
+<section id="team" class="team bg-grey fix">
   <div class="container">
     <div class="main_team roomy-80">
       <div class="head_title text-center fix">

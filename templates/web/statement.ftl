@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio/>
 
 <!--Statement section-->
-<section id="dialogue" class="dialogue bg-white roomy-80" <@studio.componentAttr path=contentModel.storeUrl />>
+<section id="dialogue" class="dialogue bg-white roomy-80">
   <div class="container">
     <div class="row">
       <div class="main_dialogue text-center">

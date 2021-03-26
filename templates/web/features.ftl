@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
 <!--Featured Section-->
-<section id="features" class="features bg-grey" <@studio.componentAttr path=contentModel.storeUrl />>
+<section id="features" class="features bg-grey">
   <div class="container">
 
     <!-- Edit Features -->

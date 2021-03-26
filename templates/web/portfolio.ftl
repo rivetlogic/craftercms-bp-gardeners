@@ -1,10 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio/>
 
 <!--Portfolio section-->
-<section
-  id="product"
-  class="product text-center" <@studio.componentAttr path=contentModel.storeUrl />
->
+<section id="product" class="product text-center">
   <div class="container">
     <div class="main_product roomy-80">
       <div class="head_title text-center fix">

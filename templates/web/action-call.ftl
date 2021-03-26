@@ -1,10 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 
 <!--Call to action section-->
-<section
-  id="action"
-  class="action bg-blue roomy-40" <@studio.componentAttr path=contentModel.storeUrl />
->
+<section id="action" class="action bg-blue roomy-40">
   <#if contentModel.sectionTitle?? >
     <span class="scrollIndicatorTitle">${contentModel.sectionTitle}</span>
   </#if>

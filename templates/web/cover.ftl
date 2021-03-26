@@ -13,11 +13,7 @@
 </#if>
 
 <!--Cover Section-->
-<section
-  <@studio.componentAttr path=contentModel.storeUrl />
-  id="home"
-  class="home bg-black fix ${bgVideoClass}" ${bgStyle}
->
+<section id="home" class="home bg-black fix ${bgVideoClass}" ${bgStyle}>
   <#if contentModel.sectionTitle?? >
     <span class="scrollIndicatorTitle">
       ${contentModel.sectionTitle}
