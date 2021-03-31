@@ -6,7 +6,7 @@
 	<#assign bgStyle="style='background-image: url(${contentModel.carouselBackground_s});'" />
 </#if>
 
-<section id="test" class="test bg-black roomy-60 fix" ${bgStyle} <@studio.componentAttr path=contentModel.storeUrl />>
+<section id="test" class="test bg-black roomy-60 fix" ${bgStyle}>
     <div class="overlay"></div>
     <div class="container">
         <div class="row">                        

@@ -55,13 +55,13 @@
         <!-- Sections -->
         <div <@studio.iceAttr iceGroup="sections"/> >
         <div class="sections" <@studio.componentContainerAttr target="sections_o" objectId=model.objectId/>>
-			<#list (contentModel.sections_o.item)![] as aSection >
-            	<#assign sectionItem =  siteItemService.getSiteItem(aSection.key) />
-            	<div id='${sectionItem["internal-name"]?replace(" ", "_")}'>
-	              <@renderComponent component=aSection />
-                 </div>
-            </#list>        
-    	</div>
+            <#list (contentModel.sections_o.item)![] as aSection >
+                <#assign sectionItem =  siteItemService.getSiteItem(aSection.key) />
+                <div id='${sectionItem["internal-name"]?replace(" ", "_")}' <@studio.componentAttr path=sectionItem.storeUrl />>
+                    <@renderComponent component=aSection />
+                </div>
+            </#list>
+        </div>
         </div>
     
     	<!-- Footer -->
