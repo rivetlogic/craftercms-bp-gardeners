@@ -305,27 +305,51 @@
    </sections>
    <datasources>
       <datasource>
-         <type>shared-content</type>
-         <id>member</id>
-         <title>Member</title>
-         <interface>item</interface>
-         <properties>
-            <property>
-               <name>repoPath</name>
-               <value>/site/components/team</value>
-               <type>undefined</type>
-            </property>
-            <property>
-               <name>browsePath</name>
-               <value/>
-               <type>undefined</type>
-            </property>
-            <property>
-               <name>type</name>
-               <value/>
-               <type>undefined</type>
-            </property>
-         </properties>
+		  <type>dropTargets</type>
+		  <id>member</id>
+		  <title>Member</title>
+		  <interface>item</interface>
+		  <properties>
+		  <property>
+			  <name>allowShared</name>
+			  <value>true</value>
+			  <type>boolean</type>
+		  </property>
+		  <property>
+			  <name>allowEmbedded</name>
+			  <value>false</value>
+			  <type>boolean</type>
+		  </property>
+		  <property>
+			  <name>enableBrowse</name>
+			  <value>true</value>
+			  <type>boolean</type>
+		  </property>
+		  <property>
+			  <name>enableSearch</name>
+			  <value>true</value>
+			  <type>boolean</type>
+		  </property>
+		  <property>
+			  <name>baseRepositoryPath</name>
+			  <value>/site/components/team</value>
+			  <type>string</type>
+		  </property>
+		  <property>
+			  <name>baseBrowsePath</name>
+			  <value>/site/components/team</value>
+			  <type>string</type>
+		  </property>
+		  <property>
+			  <name>contentTypes</name>
+			  <value>/component/team-member</value>
+			  <type>contentTypes</type>
+		  </property>
+		  <property>
+			  <name>tags</name>
+			  <value></value>
+			  <type>string</type>
+		  </property>
       </datasource>
    </datasources>
 </form>
