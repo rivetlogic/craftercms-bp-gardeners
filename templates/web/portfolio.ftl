@@ -1,59 +1,68 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio/>
+<#import "/templates/system/common/ice.ftl" as studio />
 
 <!--Portfolio section-->
-<section id="product" class="product text-center" <@studio.componentAttr path=contentModel.storeUrl />>
-    <div class="container">
-        <div class="main_product roomy-80">
-            <div class="head_title text-center fix">
-            	
-                <!-- Edit Title -->
-				<div <@studio.iceAttr iceGroup="portfolioTitle" path=contentModel.storeUrl label="Portfolio Title"/> ></div>
-                <h2 class="text-uppercase text-black scrollIndicatorTitle">${contentModel.title_t!""}</h2>
-                
-                <!-- Edit Description -->
-				<div <@studio.iceAttr iceGroup="portfolioDescription" path=contentModel.storeUrl label="Portfolio Description"/> ></div>
-                
-                <h5>${contentModel.description_t!""}</h5>
-            </div>
+<section id="product" class="product text-center">
+  <div class="container">
+    <div class="main_product roomy-80">
+      <div class="head_title text-center fix">
+        <!-- Edit Title -->
+        <@studio.h2 $field="title_t" class="text-uppercase text-black scrollIndicatorTitle">
+          ${contentModel.title_t!""}
+        </@studio.h2>
 
-            <div>
-                <!-- Wrapper for slides -->
-                <div>
-                    <!-- Edit Items -->
-                    <div <@studio.iceAttr iceGroup="portfolioItems" path=contentModel.storeUrl label="Portfolio Items"/> ></div>
-                    <div class="multiple-items">
-                        <#if contentModel.portfolioItems?? && contentModel.portfolioItems.item??>
-                            <#list contentModel.portfolioItems.item as aPortfolioItem>
-                                <div class="item">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm-4">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="${aPortfolioItem.image_s!""}" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <#if aPortfolioItem.link_s?? &&  aPortfolioItem.link_s != "">
-                                                                <a href="${aPortfolioItem.link_s!""}" >&uarr;</a>
-                                                            <#else>
-                                                                <a href="${aPortfolioItem.image_s!""}" class="gallery-image" data-gallery>&#43;</a>
-                                                            </#if>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5>${aPortfolioItem.title_t!""}</h5>
-                                                        <h6>${aPortfolioItem.shortDescription_t!""}</h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </#list>
-                        </#if>
+        <!-- Edit Description -->
+        <@studio.h2 $field="description_t">
+          ${contentModel.description_t!""}
+        </@studio.h2>
+      </div>
+
+      <div>
+        <!-- Wrapper for slides -->
+        <div>
+          <!-- Edit Items -->
+          <#if contentModel.portfolioItems?? && contentModel.portfolioItems.item??>
+            <@studio.renderRepeatCollection
+              $field="portfolioItems"
+              $containerTag="div"
+              $containerAttributes={'class':'multiple-items'}
+              $itemTag="div"
+              $itemAttributes={'class': 'item'};
+              <#-- Nested content values passed down by the macro: -->
+              item, index
+            >
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="port_item xs-m-top-30">
+                      <div class="port_img">
+                        <@studio.img $field="portfolioItems.image_s" src=(item.image_s) alt="" $index=index />
+                        <div class="port_overlay text-center">
+                          <#if item.link_s?? &&  item.link_s != "">
+                            <a href="${item.link_s!""}">&uarr;</a>
+                          <#else>
+                            <a href="${item.image_s!""}" class="gallery-image" data-gallery>
+                              &#43;
+                            </a>
+                          </#if>
+                        </div>
+                      </div>
+                      <div class="port_caption m-top-20">
+                        <@studio.h5 $field="portfolioItems.title_t" $index=index>
+                          ${item.title_t!""}
+                        </@studio.h5>
+                        <@studio.h6 $field="portfolioItems.shortDescription_t" $index=index>
+                          ${item.shortDescription_t!""}
+                        </@studio.h6>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </div><!-- End off row -->
-    </div><!-- End off container -->
-</section>
+              </div>
+            </@studio.renderRepeatCollection>
+          </#if>
+        </div>
+      </div>
+    </div><!-- End off row -->
+  </div><!-- End off container -->
+<section>
 <!-- End off Portfolio section -->

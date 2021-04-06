@@ -1,48 +1,50 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 
 <!--Featured Section-->
-<section id="features" class="features bg-grey" <@studio.componentAttr path=contentModel.storeUrl />>
+<section id="features" class="features bg-grey">
+  <div class="container">
+    <div class="row">
+      <div class="main_features fix roomy-80 roomy-80-s">
 
-    <div class="container">
-    	        
-		<!-- Edit Features -->
-		<div <@studio.iceAttr iceGroup="featuresGroup" path=contentModel.storeUrl label="Features"/> ></div>
-    
-        <div class="row">
-            <div class="main_features fix roomy-80 roomy-80-s">
-                              
-	          <#if contentModel.features?? && contentModel.features.item??>
-    	        <#list contentModel.features.item as aFeature>
-                
-        	      <div class="col-md-6">
-
-                  	  <#assign topm = "m-top-40" />
-                      <#if (aFeature?index <2)>
-                      	<#assign topm = "sm-m-top-30" />
-                      </#if>
-                      <div class="features_item ${topm}">
-                      	<#if aFeature.image_s?? && aFeature.image_s!="">
-                       		<div class="f_item_icon clickable">
-                        		<img src="${aFeature.image_s}"/>
-                             </div>
-                        <#else>                        
-                          	<div class="f_item_icon clickable">
-                              	<i class="icon ${aFeature.icon_s!""}"></i>
-                          	</div>
-                        </#if>
-                          <div class="f_item_text">
-                              <h3>${aFeature.title_t!""}</h3>
-                              <p>${aFeature.description_t!""}</p>
-                          </div>
-                      </div>
+          <#if contentModel.features?? && contentModel.features.item??>
+            <@studio.renderRepeatCollection
+              $field="features"
+              $containerTag="div"
+              $containerAttributes={'class': 'main_features fix roomy-80 roomy-80-s'}
+              $itemTag="div"
+              $itemAttributes={'class': 'col-md-6'};
+              <#-- Nested content values passed down by the macro: -->
+              item, index
+            >
+              <#assign topm = "m-top-40" />
+              <#if (index < 2)>
+                <#assign topm = "sm-m-top-30" />
+              </#if>
+              <div class="features_item ${topm}">
+                <#if item.image_s?? && item.image_s!="">
+                  <div class="f_item_icon clickable">
+                    <@studio.img $field="features.image_s" src=(item.image_s!"") $index=index/>
                   </div>
-                  
-            	</#list>
-	          </#if>                 
-                
-            </div>
-        </div><!-- End off row -->        
+                <#else>
+                  <div class="f_item_icon clickable">
+                    <i class="icon ${item.icon_s!""}"></i>
+                  </div>
+                </#if>
+                <div class="f_item_text">
+                  <@studio.h3 $field="features.title_t" $index=index>
+                    ${item.title_t!""}
+                  </@studio.h3>
+                  <@studio.p $field="features.description_t" $index=index>
+                    ${item.description_t!""}
+                  </@studio.p>
+                </div>
+              </div>
+            </@studio.renderRepeatCollection>
+          </#if>
 
-    </div><!-- End off container -->
+      </div>
+    </div><!-- End off row -->
+
+  </div><!-- End off container -->
 </section>
 <!-- End off Featured Section-->

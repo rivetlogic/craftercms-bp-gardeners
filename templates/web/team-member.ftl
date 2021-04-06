@@ -1,7 +1,7 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 
-<#assign memberModel =  contentModel />
+<#assign memberModel = contentModel />
 
-<div <@studio.componentAttr path=contentModel.storeUrl /> > 
-	<#include "/templates/web/team-member-include.ftl" /> 
-</div>
+<@studio.componentRootTag>
+	<#include "/templates/web/team-member-include.ftl" />
+</@studio.componentRootTag>
