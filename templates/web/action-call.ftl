@@ -3,7 +3,9 @@
 <!--Call to action section-->
 <section id="action" class="action bg-blue roomy-40">
   <#if contentModel.sectionTitle?? >
-    <span class="scrollIndicatorTitle">${contentModel.sectionTitle}</span>
+    <@studio.span $field="sectionTitle" class="scrollIndicatorTitle">
+      ${contentModel.sectionTitle}
+    </@studio.span>
   </#if>
   <div class="container">
     <div class="row">
