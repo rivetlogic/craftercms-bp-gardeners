@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio/>
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!--Carousel section-->
 <#assign bgStyle="" />
@@ -14,7 +14,7 @@
 
         <div class="col-md-12 col-sm-12 col-xs-12">
           <div class="head_title text-center fix">
-            <@studio.h2 $field="title_t" class="text-uppercase text-white scrollIndicatorTitle">
+            <@crafter.h2 $field="title_t" class="text-uppercase text-white scrollIndicatorTitle">
               ${contentModel.title_t!"asdasd"}
             </@crafter.h2>
             <h5 class="text-white">${contentModel.description_t!""}</h5>
@@ -71,6 +71,6 @@
     </div><!-- End off row -->
   </div><!-- End off container -->
 </section>
-<#--<section id="test" class="test bg-black roomy-60 fix" ${bgStyle} <@studio.componentAttr path=contentModel.storeUrl />>-->
+<#--<section id="test" class="test bg-black roomy-60 fix" ${bgStyle} <@crafter.componentAttr path=contentModel.storeUrl />>-->
 <#--</section>-->
 <!-- End off Carousel section -->
