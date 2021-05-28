@@ -5,17 +5,17 @@
         <div class="team_author">
           <@studio.h4 $model=memberModel $field="fullName_t">
             ${memberModel.fullName_t}
-          </@studio.h4>
+          </@crafter.h4>
           <@studio.p $model=memberModel $field="jobTitle_t">
             ${memberModel.jobTitle_t}
-          </@studio.p>
+          </@crafter.p>
         </div>
 
         <#if memberModel.skills_o?? && memberModel.skills_o.item??>
           <div class="team_skill_title fix m-top-40 m-bottom-40 skill-fix">
             <@studio.h4 $model=memberModel $field="fullName_t">
               ${memberModel.skillsTitle_t}
-            </@studio.h4>
+            </@crafter.h4>
           </div>
           <div class="skill_bar sm-m-top-50 m-top-20">
             <#list memberModel.skills_o.item as anSkill>
@@ -47,10 +47,10 @@
         <#if memberModel.famousQuote_t != "">
           <@studio.h4 $model=memberModel $field="famousQuote_t">
             ${memberModel.famousQuote_t}
-          </@studio.h4>
+          </@crafter.h4>
           <@studio.h5 $model=memberModel $field="famousQuoteAuthor_t">
             ${memberModel.famousQuoteAuthor_t}
-          </@studio.h5>
+          </@crafter.h5>
           <div class="divider"></div>
         </#if>
 
@@ -58,7 +58,7 @@
           <div class="team_socail">
             <@studio.h5 $model=memberModel $field="socialMediaTitle_t">
               ${memberModel.socialMediaTitle_t}
-            </@studio.h5>
+            </@crafter.h5>
             <ul class="list-inline m-top-20">
               <#if  memberModel.facebook_s?? && memberModel.facebook_s != "">
                 <li><a href="${memberModel.facebook_s}"><i class="fa fa-facebook"></i></a>

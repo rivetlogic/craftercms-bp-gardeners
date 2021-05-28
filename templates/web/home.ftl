@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
@@ -45,16 +45,19 @@
   <link rel="stylesheet" href="static-assets/css/jquery.scrollindicatorbullets.css" />
 
   <script src="/static-assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+  <@crafter.head/>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-menu" data-offset="110">
+  <@crafter.body_top/>
 
   <!-- Header -->
   <#include "/templates/web/page-home-header.ftl" />
 
   <!-- Sections -->
   <div>
-    <@studio.tag $field="sections_o" class="sections">
+    <@crafter.tag $field="sections_o" class="sections">
       <#list (contentModel.sections_o.item)![] as aSection >
         <#assign index = aSection?index />
         <#if aSection.component??>
@@ -62,11 +65,11 @@
         <#else>
           <#assign sectionItem = siteItemService.getSiteItem(aSection.key) />
         </#if>
-        <@studio.tag $field="sections_o" $index=index id='${sectionItem["internal-name"]?replace(" ", "_")}'>
+        <@crafter.tag $field="sections_o" $index=index id='${sectionItem["internal-name"]?replace(" ", "_")}'>
           <@renderComponent component=aSection />
-        </@studio.tag>
+        </@crafter.tag>
       </#list>
-    </@studio.tag>
+    </@crafter.tag>
   </div>
 
   <!-- Footer -->
@@ -98,6 +101,6 @@
   <script src="/static-assets/css/slick/slick.min.js"></script>
   <script src="/static-assets/js/main.js"></script>
 
-  <@studio.initPageBuilder/>
+  <@crafter.body_bottom/>
 </body>
 </html>

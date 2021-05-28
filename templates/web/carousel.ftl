@@ -16,7 +16,7 @@
           <div class="head_title text-center fix">
             <@studio.h2 $field="title_t" class="text-uppercase text-white scrollIndicatorTitle">
               ${contentModel.title_t!"asdasd"}
-            </@studio.h2>
+            </@crafter.h2>
             <h5 class="text-white">${contentModel.description_t!""}</h5>
           </div>
         </div>

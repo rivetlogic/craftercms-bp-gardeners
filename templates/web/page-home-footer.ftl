@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <footer id="contact" class="footer bg-black p-top-80">
   <!--<div class="action-lage"></div>-->
@@ -6,19 +6,19 @@
     <div class="row footer-space">
       <div class="widget_area">
         <div class="col-md-4">
-          <@studio.tag $field="contactUs_html" class="widget_item widget_about">
+          <@crafter.tag $field="contactUs_html" class="widget_item widget_about">
             ${contentModel.contactUs_html!""}
-          </@studio.tag><!-- End off widget item -->
+          </@crafter.tag><!-- End off widget item -->
         </div><!-- End off col-md-3 -->
 
         <div class="col-md-4">
           <div class="widget_item widget_service sm-m-top-50">
-            <@studio.h5 $field="relevantLinksTitle_t" class="text-white">
+            <@crafter.h5 $field="relevantLinksTitle_t" class="text-white">
               ${contentModel.relevantLinksTitle_t!""}
-            </@studio.h5>
+            </@crafter.h5>
 
             <#if contentModel.relevantLinks_o?? && contentModel.relevantLinks_o.item??>
-              <@studio.renderRepeatCollection
+              <@crafter.renderRepeatCollection
                 $field="relevantLinks_o"
                 $containerAttributes={'class': 'm-top-10'}
                 $itemAttributes={'class': 'm-top-20'};
@@ -29,7 +29,7 @@
                   <i class="fa fa-angle-right"></i>
                   ${item.label_t}
                 </a>
-              </@studio.renderRepeatCollection>
+              </@crafter.renderRepeatCollection>
             </#if>
 
           </div><!-- End off widget item -->
@@ -39,7 +39,7 @@
           <div class="widget_item widget_newsletter sm-m-top-50">
 
             <div class="widget_brand m-top-40">
-              <@studio.img $field="footerLogo_s" src=(contentModel.footerLogo_s!"") alt="" />
+              <@crafter.img $field="footerLogo_s" src=(contentModel.footerLogo_s!"") alt="" />
               <p>${footerDescription_t!""}</p>
             </div>
             <ul class="list-inline m-top-30 social-elements">

@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <#assign bgStyle="" />
 <#if contentModel.backgroundImage_s?? && !contentModel.backgroundVideo_s??>
@@ -15,9 +15,9 @@
 <!--Cover Section-->
 <section id="home" class="home bg-black fix ${bgVideoClass}">
   <#if contentModel.sectionTitle?? >
-    <@studio.span $field="sectionTitle" class="scrollIndicatorTitle">
+    <@crafter.span $field="sectionTitle" class="scrollIndicatorTitle">
       ${contentModel.sectionTitle}
-    </@studio.span>
+    </@crafter.span>
   </#if>
 
   <#if contentModel.backgroundVideo_s?? && (contentModel.backgroundVideo_s?length>0) >
@@ -41,26 +41,26 @@
             <div class="slid_item xs-text-center">
               <#if contentModel.frontImage_s??>
                 <div class="col-sm-4">
-                  <@studio.img $field="frontImage_s" src=(contentModel.frontImage_s!"") alt=""/>
+                  <@crafter.img $field="frontImage_s" src=(contentModel.frontImage_s!"") alt=""/>
                 </div>
               </#if>
               <div class="col-sm-8">
-                <@studio.tag $field="introductoryText_html" class="home_text xs-m-top-30">
+                <@crafter.tag $field="introductoryText_html" class="home_text xs-m-top-30">
                   ${contentModel.introductoryText_html!""}
-                </@studio.tag>
+                </@crafter.tag>
 
-                <@studio.tag $field="coverButtons_o" class="home_btns m-top-40">
+                <@crafter.tag $field="coverButtons_o" class="home_btns m-top-40">
                   <#if contentModel.coverButtons_o?? && contentModel.coverButtons_o.item??>
                     <#list contentModel.coverButtons_o.item as item>
                       <#assign index = item?index>
                       <a href="${item.buttonURL_s!"#"}" class="btn ${item.buttonType_s!""} m-top-20">
-                        <@studio.span $field="coverButtons_o.label_t" $index=index>
+                        <@crafter.span $field="coverButtons_o.label_t" $index=index>
                             ${item.label_t!""}
-                        </@studio.span>
+                        </@crafter.span>
                       </a>
                     </#list>
                   </#if>
-                </@studio.tag>
+                </@crafter.tag>
               </div>
             </div><!-- End off slid item -->
           </div>

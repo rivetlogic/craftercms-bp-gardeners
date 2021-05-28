@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <#assign bgStyle="" />
 <#if contentModel.actionCardBackgroundImage_s??>
@@ -18,23 +18,23 @@
       <div class="main_business">
         <div class="col-md-5">
           <div class="business_item sm-m-top-50">
-            <@studio.tag $field="actionCardText_html">
+            <@crafter.tag $field="actionCardText_html">
               ${contentModel.actionCardText_html!""}
-            </@studio.tag>
+            </@crafter.tag>
 
             <div class="business_btn m-top-50">
               <#if contentModel.actionCardButtons_o?? && contentModel.actionCardButtons_o.item??>
-                <@studio.renderRepeatCollection
+                <@crafter.renderRepeatCollection
                   $field="actionCardButtons_o";
                   <#-- Nested content values passed down by the macro: -->
                   item, index
                 >
                   <a href="${item.buttonURL_s!"#"}" class="btn ${item.buttonType_s!""} m-top-20">
-                    <@studio.span $field="actionCardButtons_o.label_t" $index=index>
+                    <@crafter.span $field="actionCardButtons_o.label_t" $index=index>
                       ${item.label_t!""}
-                    </@studio.span>
+                    </@crafter.span>
                   </a>
-                </@studio.renderRepeatCollection>
+                </@crafter.renderRepeatCollection>
               </#if>
             </div>
           </div>
@@ -43,7 +43,7 @@
         <div class="col-md-7">
           <div class="business_item">
             <div class="business_img business_img_card">
-              <@studio.img $field="actionCardForegroundImage_s" src=(contentModel.actionCardForegroundImage_s!"") alt="" />
+              <@crafter.img $field="actionCardForegroundImage_s" src=(contentModel.actionCardForegroundImage_s!"") alt="" />
             </div>
           </div>
         </div>
