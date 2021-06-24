@@ -45,11 +45,11 @@
                 </div>
               </#if>
               <div class="col-sm-8">
-                <@crafter.tag $field="introductoryText_html" class="home_text xs-m-top-30">
+                <@crafter.div $field="introductoryText_html" class="home_text xs-m-top-30">
                   ${contentModel.introductoryText_html!""}
-                </@crafter.tag>
+                </@crafter.div>
 
-                <@crafter.tag $field="coverButtons_o" class="home_btns m-top-40">
+                <@crafter.div $field="coverButtons_o" class="home_btns m-top-40">
                   <#if contentModel.coverButtons_o?? && contentModel.coverButtons_o.item??>
                     <#list contentModel.coverButtons_o.item as item>
                       <#assign index = item?index>
@@ -60,7 +60,7 @@
                       </a>
                     </#list>
                   </#if>
-                </@crafter.tag>
+                </@crafter.div>
               </div>
             </div><!-- End off slid item -->
           </div>

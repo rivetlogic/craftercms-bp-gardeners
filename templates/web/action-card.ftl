@@ -18,9 +18,9 @@
       <div class="main_business">
         <div class="col-md-5">
           <div class="business_item sm-m-top-50">
-            <@crafter.tag $field="actionCardText_html">
+            <@crafter.div $field="actionCardText_html">
               ${contentModel.actionCardText_html!""}
-            </@crafter.tag>
+            </@crafter.div>
 
             <div class="business_btn m-top-50">
               <#if contentModel.actionCardButtons_o?? && contentModel.actionCardButtons_o.item??>

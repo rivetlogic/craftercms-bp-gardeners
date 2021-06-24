@@ -57,7 +57,7 @@
 
   <!-- Sections -->
   <div>
-    <@crafter.tag $field="sections_o" class="sections">
+    <@crafter.div $field="sections_o" class="sections">
       <#list (contentModel.sections_o.item)![] as aSection >
         <#assign index = aSection?index />
         <#if aSection.component??>
@@ -65,11 +65,11 @@
         <#else>
           <#assign sectionItem = siteItemService.getSiteItem(aSection.key) />
         </#if>
-        <@crafter.tag $field="sections_o" $index=index id='${sectionItem["internal-name"]?replace(" ", "_")}'>
+        <@crafter.div $field="sections_o" $index=index id='${sectionItem["internal-name"]?replace(" ", "_")}'>
           <@renderComponent component=aSection />
-        </@crafter.tag>
+        </@crafter.div>
       </#list>
-    </@crafter.tag>
+    </@crafter.div>
   </div>
 
   <!-- Footer -->

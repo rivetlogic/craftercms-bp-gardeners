@@ -6,9 +6,9 @@
     <div class="row footer-space">
       <div class="widget_area">
         <div class="col-md-4">
-          <@crafter.tag $field="contactUs_html" class="widget_item widget_about">
+          <@crafter.div $field="contactUs_html" class="widget_item widget_about">
             ${contentModel.contactUs_html!""}
-          </@crafter.tag><!-- End off widget item -->
+          </@crafter.div><!-- End off widget item -->
         </div><!-- End off col-md-3 -->
 
         <div class="col-md-4">

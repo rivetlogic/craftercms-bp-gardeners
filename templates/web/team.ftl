@@ -31,7 +31,7 @@
 
         <!-- Wrapper for slides -->
 
-        <@crafter.tag $field="teamMembers_o" class="carousel-inner" role="listbox">
+        <@crafter.div $field="teamMembers_o" class="carousel-inner" role="listbox">
           <#if contentModel.teamMembers_o?? && contentModel.teamMembers_o.item??>
             <#list contentModel.teamMembers_o.item as item>
               <#assign i = item?index>
@@ -52,7 +52,7 @@
               </#if>
             </#list>
           </#if>
-        </@crafter.tag>
+        </@crafter.div>
 
       </div>
     </div><!-- End off main_team -->
