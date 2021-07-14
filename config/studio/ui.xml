@@ -391,7 +391,11 @@
                     <title id="GlobalMenu.LogConsoleEntryLabel" defaultMessage="Log Console"/>
                     <icon id="@material-ui/icons/FormatAlignCenterRounded"/>
                     <url>log</url>
-                    <widget id="craftercms.components.LogConsole" />
+                    <widget id="craftercms.components.LogConsole">
+                        <configuration>
+                            <logType>preview</logType>
+                        </configuration>
+                    </widget>
                 </tool>
                 <tool>
                     <title id="words.publishing" defaultMessage="Publishing"/>
