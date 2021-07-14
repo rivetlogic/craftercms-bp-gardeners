@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!--Featured Section-->
 <section id="features" class="features bg-grey">
@@ -7,7 +7,7 @@
       <div class="main_features fix roomy-80 roomy-80-s">
 
           <#if contentModel.features?? && contentModel.features.item??>
-            <@studio.renderRepeatCollection
+            <@crafter.renderRepeatCollection
               $field="features"
               $containerTag="div"
               $containerAttributes={'class': 'main_features fix roomy-80 roomy-80-s'}
@@ -23,7 +23,7 @@
               <div class="features_item ${topm}">
                 <#if item.image_s?? && item.image_s!="">
                   <div class="f_item_icon clickable">
-                    <@studio.img $field="features.image_s" src=(item.image_s!"") $index=index/>
+                    <@crafter.img $field="features.image_s" src=(item.image_s!"") $index=index/>
                   </div>
                 <#else>
                   <div class="f_item_icon clickable">
@@ -31,15 +31,15 @@
                   </div>
                 </#if>
                 <div class="f_item_text">
-                  <@studio.h3 $field="features.title_t" $index=index>
+                  <@crafter.h3 $field="features.title_t" $index=index>
                     ${item.title_t!""}
-                  </@studio.h3>
-                  <@studio.p $field="features.description_t" $index=index>
+                  </@crafter.h3>
+                  <@crafter.p $field="features.description_t" $index=index>
                     ${item.description_t!""}
-                  </@studio.p>
+                  </@crafter.p>
                 </div>
               </div>
-            </@studio.renderRepeatCollection>
+            </@crafter.renderRepeatCollection>
           </#if>
 
       </div>

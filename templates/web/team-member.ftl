@@ -1,7 +1,7 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <#assign memberModel = contentModel />
 
-<@studio.componentRootTag>
+<@crafter.componentRootTag>
 	<#include "/templates/web/team-member-include.ftl" />
-</@studio.componentRootTag>
+</@crafter.componentRootTag>
