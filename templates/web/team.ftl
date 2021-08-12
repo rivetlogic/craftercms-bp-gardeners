@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!--Team section-->
 <section id="team" class="team bg-grey fix">
@@ -6,13 +6,13 @@
     <div class="main_team roomy-80">
       <div class="head_title text-center fix">
         <!-- Edit Title -->
-        <@studio.h2 $field="title_t" class="text-uppercase scrollIndicatorTitle">
+        <@crafter.h2 $field="title_t" class="text-uppercase scrollIndicatorTitle">
           ${contentModel.title_t}
-        </@studio.h2>
+        </@crafter.h2>
         <!-- Edit Description -->
-        <@studio.h5 $field="description_t">
+        <@crafter.h5 $field="description_t">
           ${contentModel.description_t}
-        </@studio.h5>
+        </@crafter.h5>
       </div>
 
       <div id="team-slid" class="carousel slide carousel-fade" data-ride="carousel">
@@ -31,7 +31,7 @@
 
         <!-- Wrapper for slides -->
 
-        <@studio.tag $field="teamMembers_o" class="carousel-inner" role="listbox">
+        <@crafter.div $field="teamMembers_o" class="carousel-inner" role="listbox">
           <#if contentModel.teamMembers_o?? && contentModel.teamMembers_o.item??>
             <#list contentModel.teamMembers_o.item as item>
               <#assign i = item?index>
@@ -52,7 +52,7 @@
               </#if>
             </#list>
           </#if>
-        </@studio.tag>
+        </@crafter.div>
 
       </div>
     </div><!-- End off main_team -->
