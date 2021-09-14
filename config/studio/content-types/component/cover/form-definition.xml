@@ -316,7 +316,7 @@
 					</constraints>
 				</field>
 				<field>
-					<type>rte-tinymce5</type>
+					<type>rte</type>
 					<id>introductoryText_html</id>
 					<iceId>coverIntroductoryText</iceId>
 					<title>Introductory Text</title>
