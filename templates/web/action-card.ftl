@@ -24,7 +24,7 @@
 
             <div class="business_btn m-top-50">
               <#if contentModel.actionCardButtons_o?? && contentModel.actionCardButtons_o.item??>
-                <@crafter.renderRepeatCollection
+                <@crafter.renderRepeatGroup
                   $field="actionCardButtons_o";
                   <#-- Nested content values passed down by the macro: -->
                   item, index
@@ -34,7 +34,7 @@
                       ${item.label_t!""}
                     </@crafter.span>
                   </a>
-                </@crafter.renderRepeatCollection>
+                </@crafter.renderRepeatGroup>
               </#if>
             </div>
           </div>

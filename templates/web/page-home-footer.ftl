@@ -18,7 +18,7 @@
             </@crafter.h5>
 
             <#if contentModel.relevantLinks_o?? && contentModel.relevantLinks_o.item??>
-              <@crafter.renderRepeatCollection
+              <@crafter.renderRepeatGroup
                 $field="relevantLinks_o"
                 $containerAttributes={'class': 'm-top-10'}
                 $itemAttributes={'class': 'm-top-20'};
@@ -29,7 +29,7 @@
                   <i class="fa fa-angle-right"></i>
                   ${item.label_t}
                 </a>
-              </@crafter.renderRepeatCollection>
+              </@crafter.renderRepeatGroup>
             </#if>
 
           </div><!-- End off widget item -->
