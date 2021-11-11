@@ -2,6 +2,6 @@
 
 <#assign memberModel = contentModel />
 
-<@crafter.componentRootTag>
+<@crafter.div>
 	<#include "/templates/web/team-member-include.ftl" />
-</@crafter.componentRootTag>
+</@crafter.div>
