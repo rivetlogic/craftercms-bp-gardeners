@@ -21,7 +21,7 @@
         <div>
           <!-- Edit Items -->
           <#if contentModel.portfolioItems?? && contentModel.portfolioItems.item??>
-            <@crafter.renderRepeatCollection
+            <@crafter.renderRepeatGroup
               $field="portfolioItems"
               $containerTag="div"
               $containerAttributes={'class':'multiple-items'}
@@ -58,7 +58,7 @@
                   </div>
                 </div>
               </div>
-            </@crafter.renderRepeatCollection>
+            </@crafter.renderRepeatGroup>
           </#if>
         </div>
       </div>

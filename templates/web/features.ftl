@@ -7,7 +7,7 @@
       <div class="main_features fix roomy-80 roomy-80-s">
 
           <#if contentModel.features?? && contentModel.features.item??>
-            <@crafter.renderRepeatCollection
+            <@crafter.renderRepeatGroup
               $field="features"
               $containerTag="div"
               $containerAttributes={'class': 'main_features fix roomy-80 roomy-80-s'}
@@ -39,7 +39,7 @@
                   </@crafter.p>
                 </div>
               </div>
-            </@crafter.renderRepeatCollection>
+            </@crafter.renderRepeatGroup>
           </#if>
 
       </div>

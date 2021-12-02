@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
+  ~ Copyright (C) 2007-2020 Crafter Software Corporation. All Rights Reserved.
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License version 3 as published by
+  ~ the Free Software Foundation.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<!--
     This file configures the drag-and-drop components available in the Preview Tools. Those components can then
     be dragged and dropped on a drop-zone within a page.
 
@@ -21,56 +37,7 @@
     </config>
 -->
 <config>
-	<category>
-		<label>New Sections</label>
-        <component>
-                <label>Cover</label>
-                <type>/component/cover</type>
-                <path>/site/components</path>
-        </component>
-        <component>
-                <label>Features</label>
-                <type>/component/features</type>
-                <path>/site/components</path>
-        </component>
-        <component>
-                <label>Statement</label>
-                <type>/component/statement</type>
-                <path>/site/components</path>
-        </component>
-        <component>
-                <label>Action Card</label>
-                <type>/component/action-card</type>
-                <path>/site/components</path>
-        </component>
-        <component>
-                <label>Portfolio</label>
-                <type>/component/portfolio</type>
-                <path>/site/components</path>
-        </component>
-        <component>
-                <label>Team</label>
-                <type>/component/team</type>
-                <path>/site/components</path>
-        </component>
-        <component>
-                <label>Brands</label>
-                <type>/component/brands</type>
-                <path>/site/components</path>
-        </component>
-        <component>
-                <label>Carousel</label>
-                <type>/component/team</type>
-                <path>/site/components</path>
-        </component>
-        <component>
-                <label>Action Call</label>
-                <type>/component/action-call</type>
-                <path>/site/components</path>
-        </component>
-	</category>
-    <browse>
-         <label>Existing sections</label>
-         <path>/site/components/sections</path>
-    </browse>
+    <category>
+        <label>General</label>
+    </category>
 </config>
