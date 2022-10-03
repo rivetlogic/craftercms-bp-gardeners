@@ -434,7 +434,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>site-component</type>
+					<type>simpleTaxonomy</type>
 					<id>icons</id>
 					<title>Icons</title>
 					<interface>item</interface>

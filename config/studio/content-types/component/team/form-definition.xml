@@ -305,7 +305,7 @@
    </sections>
    <datasources>
       <datasource>
-		  <type>dropTargets</type>
+		  <type>components</type>
 		  <id>member</id>
 		  <title>Member</title>
 		  <interface>item</interface>

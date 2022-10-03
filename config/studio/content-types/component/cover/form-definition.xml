@@ -586,7 +586,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>site-component</type>
+					<type>simpleTaxonomy</type>
 					<id>buttonTypes</id>
 					<title>Button Types</title>
 					<interface>item</interface>
