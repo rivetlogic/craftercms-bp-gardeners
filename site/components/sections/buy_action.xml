@@ -7,10 +7,10 @@
 	<file-name>buy_action.xml</file-name>
 	<folder-name/>
 	<internal-name>Buy Action</internal-name>
-	<createdDate>2017-4-28T16:6:45.000Z</createdDate>
-	<createdDate_dt>2017-4-28T16:6:45.000Z</createdDate_dt>
-	<lastModifiedDate>2017-7-10T20:18:21.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-7-10T20:18:21.000Z</lastModifiedDate_dt>
+	<createdDate>2017-04-28T16:6:45.000Z</createdDate>
+	<createdDate_dt>2017-04-28T16:6:45.000Z</createdDate_dt>
+	<lastModifiedDate>2017-07-10T20:18:21.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-07-10T20:18:21.000Z</lastModifiedDate_dt>
 	<actionText_t>Think green, feel great!</actionText_t>
 	<buttonLabel_t>Start Now!</buttonLabel_t>
 	<buttonURL_s>#home</buttonURL_s>

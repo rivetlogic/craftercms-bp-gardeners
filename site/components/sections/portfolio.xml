@@ -7,10 +7,10 @@
 	<file-name>portfolio.xml</file-name>
 	<folder-name/>
 	<internal-name>Portfolio</internal-name>
-	<createdDate>2017-4-27T23:54:54.000Z</createdDate>
-	<createdDate_dt>2017-4-27T23:54:54.000Z</createdDate_dt>
-	<lastModifiedDate>2017-6-30T16:5:41.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-6-30T16:5:41.000Z</lastModifiedDate_dt>
+	<createdDate>2017-04-27T23:54:54.000Z</createdDate>
+	<createdDate_dt>2017-04-27T23:54:54.000Z</createdDate_dt>
+	<lastModifiedDate>2017-06-30T16:5:41.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-06-30T16:5:41.000Z</lastModifiedDate_dt>
 	<title_t>Our Works</title_t>
 	<description_t>Checkout these amazing works we have done!</description_t>
 	<portfolioItems>	<item>	<key>/site/components/portfolio/product1.xml</key>

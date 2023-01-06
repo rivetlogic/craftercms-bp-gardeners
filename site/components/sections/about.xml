@@ -7,10 +7,10 @@
 	<file-name>about.xml</file-name>
 	<folder-name/>
 	<internal-name>About</internal-name>
-	<createdDate>2017-4-27T23:28:6.000Z</createdDate>
-	<createdDate_dt>2017-4-27T23:28:6.000Z</createdDate_dt>
-	<lastModifiedDate>2017-5-25T23:48:38.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-5-25T23:48:38.000Z</lastModifiedDate_dt>
+	<createdDate>2017-04-27T23:28:6.000Z</createdDate>
+	<createdDate_dt>2017-04-27T23:28:6.000Z</createdDate_dt>
+	<lastModifiedDate>2017-05-25T23:48:38.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-05-25T23:48:38.000Z</lastModifiedDate_dt>
 	<features>	<item>	<key>/site/components/features/customize.xml</key>
 	<value>Easy to Customize</value>
 	<include>/site/components/features/customize.xml</include>

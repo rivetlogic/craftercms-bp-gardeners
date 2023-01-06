@@ -7,10 +7,10 @@
 	<file-name>brands.xml</file-name>
 	<folder-name/>
 	<internal-name>Brands</internal-name>
-	<createdDate>2017-4-28T14:47:28.000Z</createdDate>
-	<createdDate_dt>2017-4-28T14:47:28.000Z</createdDate_dt>
-	<lastModifiedDate>2017-6-8T18:29:16.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-6-8T18:29:16.000Z</lastModifiedDate_dt>
+	<createdDate>2017-04-28T14:47:28.000Z</createdDate>
+	<createdDate_dt>2017-04-28T14:47:28.000Z</createdDate_dt>
+	<lastModifiedDate>2017-06-8T18:29:16.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-06-8T18:29:16.000Z</lastModifiedDate_dt>
 	<brands>	<item>	<brandURL>http://www.google.com/</brandURL>
 	<brandImage>/static-assets/images/cbrand-1.png</brandImage>
 	</item>	<item>	<brandURL/>

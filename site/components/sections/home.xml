@@ -7,10 +7,10 @@
 	<file-name>home.xml</file-name>
 	<folder-name/>
 	<internal-name>Welcome</internal-name>
-	<createdDate>2017-4-27T23:34:14.000Z</createdDate>
-	<createdDate_dt>2017-4-27T23:34:14.000Z</createdDate_dt>
-	<lastModifiedDate>2017-7-10T20:12:11.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-7-10T20:12:11.000Z</lastModifiedDate_dt>
+	<createdDate>2017-04-27T23:34:14.000Z</createdDate>
+	<createdDate_dt>2017-04-27T23:34:14.000Z</createdDate_dt>
+	<lastModifiedDate>2017-07-10T20:12:11.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-07-10T20:12:11.000Z</lastModifiedDate_dt>
 	<frontImage_s>/static-assets/images/welcome.jpg</frontImage_s>
 	<introductoryText_html>&lt;h2 class="text-white"&gt;Welcome to &lt;strong&gt;Our Garden&lt;/strong&gt;&lt;/h2&gt;
 &lt;h1 class="text-white"&gt;We Make Your Dreamed Garden True&lt;/h1&gt;
