@@ -14,7 +14,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 30
+    patch: 31
   description: |
     Gardeners is a single page Crafter 3 blueprint with several information display section and great managament of images and background video
   website:
@@ -124,6 +124,12 @@ plugin:
     - major: 3
       minor: 1
       patch: 30
+    - major: 3
+      minor: 1
+      patch: 31
+    - major: 3
+      minor: 1
+      patch: 32
   crafterCmsEditions:
     - community
     - enterprise
